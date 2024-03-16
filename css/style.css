@@ -990,7 +990,7 @@ width: 58.8%;
 .navbar-nav .nav-link1 {
   position: relative;
 padding: 12px 1px;
-font-size: 21px;
+font-size: 211px;
 margin: 0 1px;
 z-index: 1;
 text-transform: uppercase;
@@ -1966,18 +1966,20 @@ background-color: #fff;
 /* Style the navbar links */
 .navbar-nav .nav-link {
   position: relative;
-  padding: 75px 7px 0px 7px;
-  font-size: 17px;
+  padding: 90px 7px 0px 7px;
+  font-size: 19px;
   margin: 0 7px;
   text-transform: uppercase;
- /* Apply the gradient to the text */
- background: linear-gradient(90deg, rgba(19,127,189,1) 0%, rgba(16,157,224,1) 35%, rgba(18,209,225,1) 100%);
- /* Set background clip to text */
- background-clip: text;
- /* Make the actual text transparent */
- -webkit-background-clip: text;
- color: transparent;
-
+/* Apply the gradient to the text */
+background: linear-gradient(90deg, rgba(19,127,189,1) 0%, rgba(16,157,224,1) 35%, rgba(18,209,225,1) 100%);
+/* Set background clip to text */
+background-clip: text;
+/* Make the actual text transparent */
+-webkit-background-clip: text;
+color: transparent;
+font-family: "Kanit", sans-serif;
+font-weight: 600;
+  font-style: italic;
 }
 
 .navbar-nav .nav-link:hover,
@@ -1986,6 +1988,8 @@ background-color: #fff;
 color: #01D7E8;  /* Set background clip to text */
 
 }
+
+
   .quote-form {
     max-width: 900px; /* Adjust the maximum width of the form */
     margin: 125px; /* Center the form on the page */
@@ -2041,6 +2045,19 @@ color: #01D7E8;  /* Set background clip to text */
 .slanted-button:hover .slant-bg {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     transition: clip-path 0.5s;
+}
+.navbar-nav .nav-link1 {
+  position: relative;
+  padding: 50px 20px;
+  font-size: 19px;
+  margin: 0 0 0 7px;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  transition: .5s;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+    font-style: italic;
 }
 }
 
@@ -2694,3 +2711,33 @@ display: none;
     color: #fff;
   }
 }
+@media (min-width: 1250px) {
+  .text-container h1{
+    font-size: 3em;
+  }
+  
+  /* Style the navbar links */
+  .navbar-nav .nav-link {
+    position: relative;
+    padding: 90px 7px 0px 7px;
+    font-size: 24px;
+    margin: 0 7px;
+    text-transform: uppercase;
+  /* Apply the gradient to the text */
+  background: linear-gradient(90deg, rgba(19,127,189,1) 0%, rgba(16,157,224,1) 35%, rgba(18,209,225,1) 100%);
+  /* Set background clip to text */
+  background-clip: text;
+  /* Make the actual text transparent */
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+    font-style: italic;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+  /* Apply the gradient to the text */
+  color: #01D7E8;  /* Set background clip to text */
+  
+  }}
