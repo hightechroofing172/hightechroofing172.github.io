@@ -41,7 +41,7 @@ background-image: url('img/navbar-bg.png'); background-repeat: repeat;
   
   /* Define the background color when a dropdown item is clicked */
   .dropdown-item:active {
-    background-color: #AC8A30; /* New background color when clicked (green in this example) */
+    background-color: transparent; /* New background color when clicked (green in this example) */
     /* You can change this color to the desired color */
   }
   
