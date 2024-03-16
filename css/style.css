@@ -1974,7 +1974,7 @@ background-color: #fff;
   font-size: 3em;
 }
 .logo{
-  width: 6em !important;
+  width: 6.5em !important;
   margin-left: .5em !important;
 }
   .navbar-nav .nav-link1 {
@@ -2198,6 +2198,7 @@ margin-bottom: 15px; /* Adjust margin between form groups */
 
 }
 
+
     @media (min-width: 1250px){
 /* Style the navbar links */
 /* Style the navbar links */
@@ -2266,7 +2267,7 @@ margin-bottom: 15px; /* Adjust margin between form groups */
         background-color: #ffffff83; /* Adjust background color if needed */
         border: 5px solid linear-gradient(90deg, rgba(16,157,224,1) 0%, rgba(19,127,189,1) 98%);
         border-radius: 5px; /* Adjust border radius if needed */
-        height: 68%;
+        height: 61% !important;
         width: 23%;
       }
 
@@ -2331,7 +2332,7 @@ color: #01D7E8;  /* Set background clip to text */
           border: 5px solid linear-gradient(90deg, rgba(16,157,224,1) 0%, rgba(19,127,189,1) 98%);
           border-radius: 5px; /* Adjust border radius if needed */
           height: 82%;
-          width: 30%;
+          width: 25% !important;
           margin-top: 8.00001em;
       }
       .slanted-button {
@@ -2770,7 +2771,7 @@ display: none;
   .navbar-nav .nav-link {
     position: relative;
     padding: 90px 7px 0px 7px;
-    font-size: 24px;
+    font-size: 21px;
     margin: 0 7px;
     text-transform: uppercase;
   /* Apply the gradient to the text */
@@ -2791,3 +2792,136 @@ display: none;
   color: #01D7E8;  /* Set background clip to text */
   
   }}
+
+  @media (min-width: 1350px) {
+
+
+
+    .appointment {
+      height: 100vh;
+      }
+    
+    .carousel-img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;    }
+    .text-container h1{
+      font-size: 4em;
+    }
+    .logo{
+      width: 7.5em !important;
+      margin-left: .5em !important;
+    }
+      .navbar-nav .nav-link1 {
+        position: relative;
+        padding: 50px 20px;
+        font-size: 22px !important;
+        margin: 0 0 0 7px;
+        text-transform: uppercase;
+        color: #fff;
+        outline: none;
+        transition: .5s;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+          font-style: italic;
+    }
+    /* Style the navbar links */
+    .navbar-nav .nav-link {
+      position: relative;
+      padding: 90px 7px 0px 7px;
+      font-size: 22px;
+      margin: 0 7px;
+      text-transform: uppercase;
+    /* Apply the gradient to the text */
+    background: linear-gradient(90deg, rgba(19,127,189,1) 0%, rgba(16,157,224,1) 35%, rgba(18,209,225,1) 100%);
+    /* Set background clip to text */
+    background-clip: text;
+    /* Make the actual text transparent */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+      font-style: italic;
+    }
+    
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+    /* Apply the gradient to the text */
+    color: #01D7E8;  /* Set background clip to text */
+    
+    }
+    
+    
+      .quote-form {
+        max-width: 900px; /* Adjust the maximum width of the form */
+        margin: 125px; /* Center the form on the page */
+        padding: 0px; /* Adjust padding as needed */
+        background-color: #ffffff83; /* Adjust background color if needed */
+        border: 5px solid linear-gradient(90deg, rgba(16,157,224,1) 0%, rgba(19,127,189,1) 98%);
+        border-radius: 5px; /* Adjust border radius if needed */
+        height: 73%;
+        width: 30%;
+        margin-top: 6.00001em;
+    }
+    .form-header {
+      text-align: center;
+      font-size: 18px;
+      margin: 0 auto 20px; /* Adjust margin for top, bottom, and left/right as needed */
+      color: #fafafa; /* Adjust text color if needed */
+      width: 100%; /* Make the form header fill the entire width */
+      background-color: #011B27;
+      padding: 16px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+    }
+    
+    .form-group {
+    position: relative;
+    margin-bottom: 15px; /* Adjust margin between form groups */
+    
+    }
+    
+    .testimonial-pattern-overlay.pattern-right {
+      top: 35%;
+      right: 0px;
+      }
+      
+      .testimonial-pattern-overlay.pattern-left {
+      top: 44%;
+      left: 0px;
+      }
+      .chooseus .row {
+        position: relative;
+        left: 5%;
+        z-index: 1;
+      }
+      .slanted-button {
+        position: relative;
+        display: inline-block;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        overflow: hidden;
+    }
+    
+    
+    .slant-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0,128,202);
+        background: linear-gradient(90deg, rgba(0,128,202,1) 0%, rgba(11,171,221,1) 46%, rgba(0,223,234,1) 98%);
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        transition: clip-path 0.5s;
+        overflow: hidden;
+        
+    }
+    
+    
+    
+    .slanted-button:hover .slant-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        transition: clip-path 0.5s;
+    }
+    }
