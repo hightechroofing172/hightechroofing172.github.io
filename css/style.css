@@ -2205,7 +2205,9 @@ margin-bottom: 15px; /* Adjust margin between form groups */
 .text-container h1{
   font-size: 4em;
 }
-
+.appointment {
+  height: 70vh;
+  }
 
 }
 
@@ -2218,7 +2220,7 @@ margin-bottom: 15px; /* Adjust margin between form groups */
     border: 5px solid #1F86C9;
     border-radius: 5px; /* Adjust border radius if needed */
     height: 82%;
-    width: 30%;
+    width: 32%;
     margin-top: 8.00001em;
 }
 .slanted-button {
@@ -2267,7 +2269,7 @@ margin-bottom: 15px; /* Adjust margin between form groups */
         background-color: #ffffff83; /* Adjust background color if needed */
         border: 5px solid linear-gradient(90deg, rgba(16,157,224,1) 0%, rgba(19,127,189,1) 98%);
         border-radius: 5px; /* Adjust border radius if needed */
-        height: 61% !important;
+        height: 55% !important;
         width: 23%;
       }
 
@@ -2798,7 +2800,7 @@ display: none;
 
 
     .appointment {
-      height: 100vh;
+      height: 65vh;
       }
     
     .carousel-img{
@@ -2992,3 +2994,4 @@ display: none;
           font-size: 2em !important;
       }
   }
+
