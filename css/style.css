@@ -2611,7 +2611,16 @@ background-position: top;
         width: 100%;
         height: 100%;
         object-fit: cover;    }
-
+  
+        .testimonial-pattern-overlay.pattern-left {
+          top: 30%;
+          left: 0px;
+          }
+          .testimonial-pattern-overlay.pattern-right {
+          top: 22%;
+          z-index: -110000;
+          left: 0px;
+          }
 
     .text-container {
         position: absolute;
@@ -2702,7 +2711,16 @@ display: none;
      height: 45%;
 
     }
-
+  
+    .testimonial-pattern-overlay.pattern-left {
+      top: 30%;
+      left: 0px;
+      }
+      .testimonial-pattern-overlay.pattern-right {
+      top: 22%;
+      z-index: -110000;
+      left: 0px;
+      }
 
 
     .carousel-bottom-shape {  
@@ -2937,7 +2955,15 @@ display: none;
           height: 100%;
           object-fit: cover;    }
   
-  
+          .testimonial-pattern-overlay.pattern-left {
+            top: 30%;
+            left: 0px;
+            }
+            .testimonial-pattern-overlay.pattern-right {
+            top: 22%;
+            z-index: -110000;
+            left: 0px;
+            }
       .text-container {
           position: absolute;
           top: 26%;
