@@ -1960,13 +1960,10 @@ background-color: #fff;
 }
 @media (min-width: 1000px) {
 
-  .carousel-item {
-    height: 80vh;
-    width: 100%;
-}
+
 
 .appointment {
-  height: 90vh;
+  height: 100vh;
   }
 
 .carousel-img{
@@ -2094,7 +2091,47 @@ margin-bottom: 15px; /* Adjust margin between form groups */
 }
 }
 
+@media (min-width: 1150px){
+  .text-container h1{
+    font-size: 3em;
+  }
+  .logo{
+    width: 6em ;
+    margin-left: .5em !important;
+  }
+    .navbar-nav .nav-link1 {
+      position: relative;
+      padding: 50px 20px;
+      font-size: 18px !important;
+      margin: 0 0 0 7px;
+      text-transform: uppercase;
+      color: #fff;
+      outline: none;
+      transition: .5s;
+      font-family: "Kanit", sans-serif;
+      font-weight: 700;
+        font-style: italic;
+  }
+  /* Style the navbar links */
+  .navbar-nav .nav-link {
+    position: relative;
+    padding: 90px 7px 0px 7px;
+    font-size: 18px;
+    margin: 0 7px;
+    text-transform: uppercase;
+  /* Apply the gradient to the text */
+  background: linear-gradient(90deg, rgba(19,127,189,1) 0%, rgba(16,157,224,1) 35%, rgba(18,209,225,1) 100%);
+  /* Set background clip to text */
+  background-clip: text;
+  /* Make the actual text transparent */
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+    font-style: italic;
+  }
 
+}
 
 
 
