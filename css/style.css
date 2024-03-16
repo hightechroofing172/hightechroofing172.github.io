@@ -16,7 +16,7 @@
   font-size: 1.5rem; /* Adjust the size as needed */
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3e%3crect width='40' height='4' rx='2' fill='%231CB8E7'/%3e%3crect y='9' width='40' height='4' rx='2' fill='%231CB8E7'/%3e%3crect y='18' width='40' height='4' rx='2' fill='%231CB8E7'/%3e%3c/svg%3e");
   border: none; /* Remove the border to center the icon in the button */
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 .text-colour1{
@@ -548,7 +548,9 @@ border: none;
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #089CD7;
+/* Apply the gradient to the text */
+color: #01D7E8;  /* Set background clip to text */
+
 }
 
 
@@ -562,8 +564,9 @@ border: none;
     color: #fff;
     outline: none;
     transition: .5s;
-    font-family: 'Bebas Neue', sans-serif;
-font-family: 'Francois One', sans-serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+      font-style: italic;
 }
 
 @media (max-width: 991.98px) {
@@ -1000,10 +1003,10 @@ font-family: 'Francois One', sans-serif;
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #089CD7;
+/* Apply the gradient to the text */
+color: #01D7E8;  /* Set background clip to text */
+
 }
-
-
 
 .slanted-button {
     position: relative;
@@ -1059,6 +1062,24 @@ display: none;
     .header-carousel .owl-carousel-item p {
         font-size: 16px !important;
     }
+    /* Style the navbar links */
+.navbar-nav .nav-link {
+  position: relative;
+  padding: 18px 7px 0px 7px;
+  font-size: 21px;
+  margin: 0 7px;
+  text-transform: uppercase;
+/* Apply the gradient to the text */
+background: linear-gradient(90deg, rgba(19,127,189,1) 0%, rgba(16,157,224,1) 35%, rgba(18,209,225,1) 100%);
+/* Set background clip to text */
+background-clip: text;
+/* Make the actual text transparent */
+-webkit-background-clip: text;
+color: transparent;
+font-family: "Kanit", sans-serif;
+font-weight: 600;
+  font-style: italic; 
+}
 }
 
 .header-carousel .owl-dots {
@@ -1961,7 +1982,9 @@ background-color: #fff;
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: #089CD7;
+/* Apply the gradient to the text */
+color: #01D7E8;  /* Set background clip to text */
+
 }
   .quote-form {
     max-width: 900px; /* Adjust the maximum width of the form */
@@ -2643,4 +2666,31 @@ display: none;
       .font-contact{
         font-size: 2em !important;
     }
+}
+@media (max-width: 768px) {
+  .check-icon {
+      width: 40px;
+      height: 40px;
+      font-size: 20px; /* Adjust the size as needed */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .check-icon i {
+      margin-bottom: .65em; /* Remove default margin */
+  }
+  .button-text i{
+    margin-left: 0px;
+    padding: 15px 7px 0px 0px;
+  }
+  .button-text {
+    position: relative;
+    z-index: 1;
+    padding: 0px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight:  800;
+  font-style: italic ;
+    font-size: 22px;
+    color: #fff;
+  }
 }
