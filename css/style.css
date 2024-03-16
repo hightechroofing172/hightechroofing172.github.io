@@ -990,7 +990,7 @@ width: 58.8%;
 .navbar-nav .nav-link1 {
   position: relative;
 padding: 12px 1px;
-font-size: 211px;
+font-size: 21px;
 margin: 0 1px;
 z-index: 1;
 text-transform: uppercase;
@@ -1959,15 +1959,45 @@ background-color: #fff;
   }
 }
 @media (min-width: 1000px) {
+
+  .carousel-item {
+    height: 80vh;
+    width: 100%;
+}
+
+.appointment {
+  height: 90vh;
+  }
+
+.carousel-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    }
 .text-container h1{
   font-size: 3em;
 }
-
+.logo{
+  width: 6em !important;
+  margin-left: .5em !important;
+}
+  .navbar-nav .nav-link1 {
+    position: relative;
+    padding: 50px 20px;
+    font-size: 18px !important;
+    margin: 0 0 0 7px;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    transition: .5s;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+      font-style: italic;
+}
 /* Style the navbar links */
 .navbar-nav .nav-link {
   position: relative;
   padding: 90px 7px 0px 7px;
-  font-size: 19px;
+  font-size: 18px;
   margin: 0 7px;
   text-transform: uppercase;
 /* Apply the gradient to the text */
@@ -1997,11 +2027,27 @@ color: #01D7E8;  /* Set background clip to text */
     background-color: #ffffff83; /* Adjust background color if needed */
     border: 5px solid linear-gradient(90deg, rgba(16,157,224,1) 0%, rgba(19,127,189,1) 98%);
     border-radius: 5px; /* Adjust border radius if needed */
-    height: 82%;
+    height: 73%;
     width: 30%;
-    margin-top: 8.00001em;
+    margin-top: 6.00001em;
+}
+.form-header {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto 20px; /* Adjust margin for top, bottom, and left/right as needed */
+  color: #fafafa; /* Adjust text color if needed */
+  width: 100%; /* Make the form header fill the entire width */
+  background-color: #011B27;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
+.form-group {
+position: relative;
+margin-bottom: 15px; /* Adjust margin between form groups */
+
+}
 
 .testimonial-pattern-overlay.pattern-right {
   top: 35%;
@@ -2045,19 +2091,6 @@ color: #01D7E8;  /* Set background clip to text */
 .slanted-button:hover .slant-bg {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     transition: clip-path 0.5s;
-}
-.navbar-nav .nav-link1 {
-  position: relative;
-  padding: 50px 20px;
-  font-size: 19px;
-  margin: 0 0 0 7px;
-  text-transform: uppercase;
-  color: #fff;
-  outline: none;
-  transition: .5s;
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-    font-style: italic;
 }
 }
 
@@ -2350,10 +2383,6 @@ color: #01D7E8;  /* Set background clip to text */
     
     }
 
-    .logo{
-      width: 19em;
-    
-    }
 
     .textured-navbar {
       background-color: #333; /* Fallback background color */
@@ -2368,22 +2397,7 @@ color: #01D7E8;  /* Set background clip to text */
     color: #08BBE1;
   }
 
-  .logo-container {
-    position: absolute;
-    top: 50%; /* Adjust top position as needed */
-    left: 20px; /* Adjust left position as needed */
-    transform: translateY(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 0px solid #fff; /* Adjust border color as needed */
-    border-radius: 50%; /* Make the border circular */
-    width: 265px; /* Adjust the width and height as needed */
-    height: 265px;
-    overflow: hidden; /* Hide overflow */
-    z-index: 999; /* Ensure the logo is on top of the navbar */
-    background-color: #011B27;
-}
+
 
 .logo {
 width: 8.5em;
@@ -2407,7 +2421,6 @@ margin-left: 2em;
   font-family: "Montserrat", sans-serif;
   font-weight:  800;
 font-style: italic ;
-  font-size: 22px;
   color: #fff;
 }
 .text-dark-blue{
