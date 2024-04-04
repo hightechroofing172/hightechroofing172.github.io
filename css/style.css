@@ -1660,7 +1660,7 @@ padding-top: .85em;
     width: 52%;
   }
   .carousel-item{
-    height: 100vh;
+    height: 70vh;
   } 
   .navbar .navbar-nav .nav-link {
     margin-right: 35px;
@@ -1696,7 +1696,7 @@ padding-top: .85em;
   background-color: #182333;
   border: 15px solid #182333;
   border-radius: 3.5rem;
-  margin-top: 51em;
+  margin-top: 36em;
 
 }
 .logo{
@@ -1711,72 +1711,3 @@ padding-top: .85em;
 font-size: 2em;
 }
   }
-@media (max-width: 395px){
-  .text-container{
-    width: 100%;
-    margin: 0 auto; /* This will center the text container horizontally */
-  
-  }
-
-  .navbar-brand {
-    padding-left: 1.5em;
-    }
-    
-  .text-container h1{
-    font-size: 2.2em;
-  }
-  .carousel-btn{
-    width: 52%;
-  }
-  .carousel-item{
-    height: 90vh;
-  } 
-  .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 20px 0px 0px 0;
-    color: #223A68;
-    font-size: 18px;
-    text-transform: capitalize;
-    outline: none;
-    font-family: "Montserrat", sans-serif;
-   font-weight: 600;
-    }
-
-/* Updated carousel bottom shape */
-/* Updated carousel bottom shape */
-/* Updated carousel bottom shape */
-.carousel-bottom-shape {
-display: none;
-}
-.carousel-control-prev,
-.carousel-control-next {
-    width: 16%;
-   
-  }
-  .about-header-font{
-    font-size: 2em;
-  }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 3rem;
-  height: 3rem;
-  background-color: #182333;
-  border: 15px solid #182333;
-  border-radius: 3.5rem;
-  margin-top: 51em;
-
-}
-.logo{
-  width: 8.5em;
-}
-.appointment {
-  background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .75)), url(../img/carousel-2.jpg) center center no-repeat;
-  background-size: cover;
-  height: 170vh;
-}
-.contact-font-size{
-font-size: 2em;
-}
-  }
-
