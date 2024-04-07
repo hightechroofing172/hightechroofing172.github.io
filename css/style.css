@@ -1758,4 +1758,66 @@ font-size: 2em;
 
       
   }
+  @media (min-width: 730px) and (max-width: 980px) {
+    .carousel-bottom-shape {
+      display: none;
+    
+    }  .text-container h1{
+      font-size: 2.7em;
+    }
+    .appointment{
+      height: 90vh;
+    }
+    .font-size-p{
+      font-size: 18px;
+    }
+    .carousel-item{
+      height: 100vh;
+    } 
+    .chooseus {
+      padding: 0px 0px 50px 0px;
+  }
   
+  .chooseus__text {
+      text-align: center;
+  }
+  
+  .chooseus__text .section-title {
+      margin-bottom: 20px;
+  }
+  
+  .chooseus__text ul {
+      margin-bottom: 120px;
+
+  }
+  
+  .chooseus__text ul li {
+      font-size: 14px;
+      line-height: 1.5;
+  }
+  
+  .chooseus__video {
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust the height as needed */
+    margin-top: 3em;
+}
+
+.chooseus__video img {
+    width: 94%;
+margin-left: 3%;
+  margin-right: 3%;
+    height: 300px;
+    object-fit: cover;
+  padding-bottom: 2em;
+}
+.carousel-btn{
+  width: 46%;
+}
+#header-carousel .carousel-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  }
