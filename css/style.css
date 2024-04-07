@@ -1649,6 +1649,9 @@ padding-top: .85em;
     margin: 0 auto; /* This will center the text container horizontally */
   
   }
+  .container {
+    overflow-x: hidden;
+  }
 
   .navbar-brand {
     padding-left: 1em;
