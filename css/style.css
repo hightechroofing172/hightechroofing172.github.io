@@ -1716,3 +1716,46 @@ font-size: 2em;
   margin: 0em 0em;
 }
   }
+  @media (min-width: 1000px) and (max-width: 1200px) {
+    .text-container h1 {
+      font-size: 1.9em;
+    }
+    .font-size-p{
+      font-size: 15px;
+    }
+    .carousel-btn{
+      width: 36%;
+    }
+    .appointment{
+      height: 80vh;
+    }
+    .chooseus .row {
+      position: relative;
+      left: 5%;
+      z-index: 1;
+    }
+
+  }
+  
+  @media (min-width: 1230px) and (max-width: 1400px) {
+    .text-container h1 {
+      font-size: 2.6em;
+    }
+    .font-size-p{
+      font-size: 15px;
+    }
+    .carousel-btn{
+      width: 36%;
+    }
+    .appointment{
+      height: 70vh;
+    }
+    .chooseus .row {
+      position: relative;
+      left: 5%;
+      z-index: 1;
+    }
+
+      
+  }
+  
