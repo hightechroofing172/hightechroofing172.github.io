@@ -17,26 +17,79 @@
 
 
     // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+    window.addEventListener('scroll', function(e) {
+        if (window.scrollY > 300) {
             $('.sticky-top').addClass('shadow-sm').css('top', '0px');
         } else {
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
-    });
+    }, { passive: true });
     
     
     // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
         }
-    });
+    }, { passive: true });
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
+    });
+
+
+    // Modal Video
+    var $videoSrc;
+    $('.btn-play').click(function () {
+        $videoSrc = $(this).data("src");
+    });
+    console.log($videoSrc);
+    $('#videoModal').on('shown.bs.modal', function (e) {
+        $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+    })
+    $('#videoModal').on('hide.bs.modal', function (e) {
+        $("#video").attr('src', $videoSrc);
+    })
+
+
+    // Facts counter
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+
+    // Project carousel
+    $(".project-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        loop: true,
+        center: true,
+        dots: false,
+        nav: true,
+        navText : [
+            '<i class="bi bi-chevron-left"></i>',
+            '<i class="bi bi-chevron-right"></i>'
+        ],
+        responsive: {
+            0:{
+                items:2
+            },
+            576:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:4
+            },
+            1200:{
+                items:5
+            }
+        }
     });
 
 
@@ -44,109 +97,46 @@
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
-        items: 1,
+        center: true,
         dots: false,
         loop: true,
-        nav: true,
+        nav : true,
         navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
+            '<i class="bi bi-arrow-left"></i>',
+            '<i class="bi bi-arrow-right"></i>'
+        ],
+        responsive: {
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            }
+        }
     });
 
     
 })(jQuery);
 
-// Function to toggle active class on click for mobile
-document.querySelectorAll('.nav-item').forEach(item => {
-    item.addEventListener('click', event => {
-        const isActive = item.classList.contains('active');
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.classList.remove('active');
-        });
-        if (!isActive) {
-            item.classList.add('active');
-        }
-    });
-});
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the services dropdown toggle and menu
-    var servicesDropdownToggle = document.getElementById("servicesDropdown");
-    var servicesDropdownMenu = document.querySelector("#servicesDropdown + .dropdown-menu");
+// JavaScript to control the pop-up behavior
 
-    // Add a click event listener to the document
-    document.addEventListener("click", function(event) {
-        // Check if the click target is outside the services dropdown toggle and menu
-        if (!event.target.closest("#servicesDropdown") && !event.target.closest(".dropdown-menu")) {
-            servicesDropdownMenu.classList.remove("show");
-        }
-    });
+// Show the pop-up after a delay (e.g., 10 seconds)
+setTimeout(function() {
+    showPopup();
+}, 10000);
 
-    // Add a click event listener to the services dropdown toggle
-    servicesDropdownToggle.addEventListener("click", function(event) {
-        // Toggle the 'show' class on the dropdown menu
-        servicesDropdownMenu.classList.toggle("show");
-    });
-
-    
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    // Function to toggle the visibility of the residential dropdown submenu
-    function toggleResidentialMenu() {
-        var residentialMenu = document.getElementById('residentialMenu');
-        var commercialMenu = document.getElementById('commercialMenu');
-        if (residentialMenu.classList.contains('show')) {
-            residentialMenu.classList.remove('show');
-        } else {
-            residentialMenu.classList.add('show');
-            // Close the commercial menu if it's open
-            if (commercialMenu.classList.contains('show')) {
-                commercialMenu.classList.remove('show');
-            }
-        }
+// Function to show the pop-up
+function showPopup() {
+    var popup = document.getElementById('popupContainer');
+    if (popup) {
+        popup.style.display = 'block';
     }
+}
 
-    // Function to toggle the visibility of the commercial dropdown submenu
-    function toggleCommercialMenu() {
-        var commercialMenu = document.getElementById('commercialMenu');
-        var residentialMenu = document.getElementById('residentialMenu');
-        if (commercialMenu.classList.contains('show')) {
-            commercialMenu.classList.remove('show');
-        } else {
-            commercialMenu.classList.add('show');
-            // Close the residential menu if it's open
-            if (residentialMenu.classList.contains('show')) {
-                residentialMenu.classList.remove('show');
-            }
-        }
+// Function to close the pop-up
+function closePopup() {
+    var popup = document.getElementById('popupContainer');
+    if (popup) {
+        popup.style.display = 'none';
     }
-
-    // Function to close both dropdown submenus
-    function closeDropdownMenus() {
-        var residentialMenu = document.getElementById('residentialMenu');
-        var commercialMenu = document.getElementById('commercialMenu');
-        residentialMenu.classList.remove('show');
-        commercialMenu.classList.remove('show');
-    }
-
-    // Add event listener to the Residential dropdown toggle
-    document.getElementById('residentialDropdown').addEventListener('click', toggleResidentialMenu);
-
-    // Add event listener to the Commercial dropdown toggle
-    document.getElementById('commercialDropdown').addEventListener('click', toggleCommercialMenu);
-
-    // Add event listener to close dropdown submenus when clicking outside
-    document.addEventListener('click', function(event) {
-        var dropdowns = document.getElementsByClassName('dropdown-menu');
-        for (var i = 0; i < dropdowns.length; i++) {
-            var dropdownMenu = dropdowns[i];
-            if (dropdownMenu.classList.contains('show') && !event.target.closest('.nav-item.dropdown')) {
-                dropdownMenu.classList.remove('show');
-            }
-        }
-    });
-
-    // Add event listener to close both dropdown submenus when Services button is clicked
-    document.getElementById('servicesDropdown').addEventListener('click', closeDropdownMenus);
-});
+}
