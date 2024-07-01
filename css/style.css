@@ -1900,7 +1900,7 @@ background-color: rgba(255, 255, 255, 1) !important;
 padding: 20px 0px 0px 0px !important;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 text-align: center;
-border-radius: 10px;
+border-radius: 0px;
 margin: auto;
 overflow-y: hidden !important;
 }
