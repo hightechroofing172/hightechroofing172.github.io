@@ -1889,12 +1889,12 @@ overflow-y: hidden !important;
 .estimation-tool2 {
 width: 800px ;
 margin-top: 7em !important;
-height: 535px !important ;
+height: 540px !important ;
 border: none ;
 overflow-y: hidden ; /* Hide vertical scrollbar */
 overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
 .estimation-widget-container {
-width: 98% !important;
+width: 99% !important;
 max-width: 800px;
 background-color: rgba(255, 255, 255, 1) !important;
 padding: 20px 0px 0px 0px !important;
