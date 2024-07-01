@@ -1652,7 +1652,7 @@ position: relative; /* Ensure it's in the flow */
 z-index: 2; /* Bring it above the carousel */
 margin-top: -160px !important ; /* Adjust as needed to move it higher */
 background-color: #f8f9fa00; /* Example background color */
-padding: 20px 0px 0px 0px; /* Example padding */
+padding: 40px 0px 0px 0px; /* Example padding */
 text-align: center;
 overflow-y: hidden !important;
 
@@ -1728,7 +1728,7 @@ position: relative; /* Ensure it's in the flow */
 z-index: 2; /* Bring it above the carousel */
 margin-top: -170px !important ; /* Adjust as needed to move it higher */
 background-color: #f8f9fa00; /* Example background color */
-padding: 20px 0px 0px 0px; /* Example padding */
+padding: 40px 0px 0px 0px; /* Example padding */
 text-align: center;
 overflow-y: hidden !important;
 
@@ -1821,7 +1821,7 @@ overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
 width: 98% !important;
 max-width: 800px;
 background-color: rgba(255, 255, 255, 1) !important;
-padding: 20px 0px 0px 0px !important;
+padding: 30px 0px 0px 0px; /* Example padding */
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 text-align: center;
 border-radius: 10px;
@@ -1880,7 +1880,7 @@ position: relative; /* Ensure it's in the flow */
 z-index: 2; /* Bring it above the carousel */
 margin-top: -170px !important ; /* Adjust as needed to move it higher */
 background-color: #f8f9fa00; /* Example background color */
-padding: 20px 0px 0px 0px; /* Example padding */
+padding: 40px 0px 0px 0px; /* Example padding */
 text-align: center;
 overflow-y: hidden !important;
 
