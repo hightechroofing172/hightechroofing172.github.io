@@ -1894,8 +1894,8 @@ border: none ;
 overflow-y: hidden ; /* Hide vertical scrollbar */
 overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
 .estimation-widget-container {
-width: 99% !important;
-max-width: 800px;
+width: 100% !important;
+max-width: 810px;
 background-color: rgba(255, 255, 255, 1) !important;
 padding: 20px 0px 0px 0px !important;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
