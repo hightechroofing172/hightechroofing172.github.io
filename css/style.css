@@ -368,56 +368,10 @@ h6,
 @media (max-width: 768px) {
   #header-carousel .carousel-item {
       position: relative;
-      min-height: 650px;
+      min-height: 620px;
   }
-  .carousel-content{
-    margin-top: -120px !important;
-  }
-  .iframe-container {
-    position: relative !important ;
-    width: 100% !important;
-    height: 900px !important; /* Adjust height as needed */
-    overflow: hidden !important; /* Hide any overflow content */
-}
+  
 
-.estimation-widget {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important ;
-    height: 100% !important ;
-    border: none !important;
-}
-  /* Estimation section styles */
-.estimation-section {
-position: relative; /* Ensure it's in the flow */
-z-index: 2; /* Bring it above the carousel */
-margin-top: -180px !important; /* Adjust as needed to move it higher */
-background-color: #f8f9fa00; /* Example background color */
-padding: 50px 0; /* Example padding */
-text-align: center;
-overflow-y: hidden !important;
-
-}
-
-.estimation-tool2 {
-width: 800px ;
-margin-top: 8em;
-height: 600px ;
-border: none ;
-overflow-y: hidden ; /* Hide vertical scrollbar */
-overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
-.estimation-widget-container {
-width: 98% !important;
-max-width: 800px;
-background-color: rgba(255, 255, 255, 1) !important;
-padding: 20px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-text-align: center;
-border-radius: 10px;
-margin: auto;
-overflow-y: hidden !important;
-}
   #header-carousel .carousel-item img {
       position: absolute;
       width: 100%;
@@ -1459,25 +1413,35 @@ text-decoration: underline;
 }
 
 /* Estimation section styles */
-.estimation-section {
+.estimation-section2{
   position: relative; /* Ensure it's in the flow */
   z-index: 2; /* Bring it above the carousel */
-  margin-top: -150px ; /* Adjust as needed to move it higher */
+  margin-top: -190px ; /* Adjust as needed to move it higher */
   background-color: #f8f9fa00; /* Example background color */
-  padding: 50px 0; /* Example padding */
+  padding: 20px 0; /* Example padding */
   text-align: center;
+  width: 100% !important; 
+  display: flex !important;
+  justify-content: center !important; 
 }
 
 .estimation-widget-container {
-  width: 100%;
-  max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  max-width: 2000px;
+  background-color: #F8F9FA;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 10px;
   margin: auto;
 }
+.estimation-tool2 {
+  width: 2000px ;
+  margin-top: 11em;
+  height: 650px ;
+  border: none ;
+  overflow-y: hidden ; /* Hide vertical scrollbar */
+  overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
 
 .estimation-widget-container h2 {
   font-size: 24px;
@@ -1522,3 +1486,525 @@ text-decoration: underline;
       margin-top: 0; /* Reset margin on smaller screens */
   }
 }
+.carousel-content{
+  margin-top: -50px ;
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+/* Estimation section styles */
+.estimation-section2{
+  position: relative; /* Ensure it's in the flow */
+  z-index: 2; /* Bring it above the carousel */
+  margin-top: -10px  ; /* Adjust as needed to move it higher */
+  background-color: #f8f9fa00; /* Example background color */
+  padding: 20px 0; /* Example padding */
+  text-align: center;
+  width: 100% !important; 
+  display: flex !important;
+  
+}
+.estimation-widget-container {
+  width: 80%;
+  margin-top: 0em !important;
+  max-width: 2000px;
+  background-color: #ffffff;
+  height: 680px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.estimation-tool2 {
+  width: 600px ;
+  margin-top: 0em;
+  height: 625px ;
+  border: none ;
+  overflow-y: hidden ; /* Hide vertical scrollbar */
+  overflow-x: hidden !important ; /* Hide horizontal scrollbar */
+
+}
+
+
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+/* Estimation section styles */
+.estimation-section2{
+  position: relative; /* Ensure it's in the flow */
+  z-index: 2; /* Bring it above the carousel */
+  margin-top: -150px ; /* Adjust as needed to move it higher */
+  background-color: #f8f9fa00; /* Example background color */
+  padding: 10px 0; /* Example padding */
+  text-align: center;
+  width: 100% !important; 
+  display: flex !important;
+  justify-content: center !important; 
+}
+
+.estimation-widget-container {
+  width: 100%;
+  max-width: 2000px;
+  background-color: #F8F9FA;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.estimation-tool2 {
+  width: 2000px ;
+  margin-top: 8em;
+  height: 520px ;
+  border: none ;
+  overflow-y: hidden ; /* Hide vertical scrollbar */
+  overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+
+
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+/* Estimation section styles */
+.estimation-section2{
+  position: relative; /* Ensure it's in the flow */
+  z-index: 2; /* Bring it above the carousel */
+  margin-top: -170px ; /* Adjust as needed to move it higher */
+  background-color: #f8f9fa00; /* Example background color */
+  padding: 10px 0; /* Example padding */
+  text-align: center;
+  width: 100% !important; 
+  display: flex !important;
+  justify-content: center !important; 
+}
+
+.estimation-widget-container {
+  width: 100%;
+  min-width: 1100px;
+  background-color: #F8F9FA;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.estimation-tool2 {
+  min-width: 1100px;
+  margin-top: 8em;
+  height: 520px ;
+  border: none ;
+  overflow-y: hidden ; /* Hide vertical scrollbar */
+  overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+
+
+}
+@media (min-width: 1599px) and (max-width: 2100px) {
+/* Estimation section styles */
+.estimation-section2{
+  position: relative; /* Ensure it's in the flow */
+  z-index: 2; /* Bring it above the carousel */
+  margin-top: -200px ; /* Adjust as needed to move it higher */
+  background-color: #f8f9fa00; /* Example background color */
+  padding: 10px 0; /* Example padding */
+  text-align: center;
+  width: 100% !important; 
+  display: flex !important;
+  justify-content: center !important; 
+}
+
+.estimation-widget-container {
+  width: 100%;
+  min-width: 1050px;
+  background-color: #F8F9FA;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.estimation-tool2 {
+  min-width: 1000px;
+  margin-top: 10em;
+  height: 520px ;
+  border: none ;
+  overflow-y: hidden ; /* Hide vertical scrollbar */
+  overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+
+
+}
+@media (min-width: 100px) and (max-width: 370px){
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 620px;
+  }
+  .carousel-content{
+    margin-top: -120px !important;
+  }
+
+
+.estimation-widget {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important ;
+    height: 100% !important ;
+    border: none !important;
+}
+  /* Estimation section styles */
+.estimation-section2 {
+position: relative; /* Ensure it's in the flow */
+z-index: 2; /* Bring it above the carousel */
+margin-top: -160px !important ; /* Adjust as needed to move it higher */
+background-color: #f8f9fa00; /* Example background color */
+padding: 20px 0px 0px 0px; /* Example padding */
+text-align: center;
+overflow-y: hidden !important;
+
+}
+
+.estimation-tool2 {
+width: 800px ;
+margin-top: 7em !important;
+height: 540px !important ;
+border: none ;
+overflow-y: hidden ; /* Hide vertical scrollbar */
+overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+.estimation-widget-container {
+width: 98% !important;
+max-width: 800px;
+background-color: rgba(255, 255, 255, 1) !important;
+padding: 20px 0px 0px 0px !important;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+border-radius: 10px;
+margin: auto;
+overflow-y: hidden !important;
+}
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 3.5rem;
+ margin-top: 22em;
+}
+.main-size{
+  font-size: 2.8em;
+}
+.title-text{
+  font-size: 1em;
+}
+.navbar-brand{
+  padding-left: .5em;
+}
+.logo{
+  width: 7em;
+  height: 5.5em;
+}}
+@media (min-width: 370px) and (max-width: 385px){
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 620px;
+  }
+  .carousel-content{
+    margin-top: -120px !important;
+  }
+
+
+.estimation-widget {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important ;
+    height: 100% !important ;
+    border: none !important;
+}
+  /* Estimation section styles */
+.estimation-section2 {
+position: relative; /* Ensure it's in the flow */
+z-index: 2; /* Bring it above the carousel */
+margin-top: -170px !important ; /* Adjust as needed to move it higher */
+background-color: #f8f9fa00; /* Example background color */
+padding: 20px 0px 0px 0px; /* Example padding */
+text-align: center;
+overflow-y: hidden !important;
+
+}
+
+.estimation-tool2 {
+width: 800px ;
+margin-top: 7em !important;
+height: 540px !important ;
+border: none ;
+overflow-y: hidden ; /* Hide vertical scrollbar */
+overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+.estimation-widget-container {
+width: 98% !important;
+max-width: 800px;
+background-color: rgba(255, 255, 255, 1) !important;
+padding: 20px 0px 0px 0px !important;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+border-radius: 10px;
+margin: auto;
+overflow-y: hidden !important;
+}
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 3.5rem;
+ margin-top: 22em;
+}
+.main-size{
+  font-size: 2.8em;
+}
+.title-text{
+  font-size: 1em;
+}
+.navbar-brand{
+  padding-left: .5em;
+}
+.logo{
+  width: 7em;
+  height: 5.5em;
+}}
+@media (min-width: 385px) and (max-width: 410px){
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 620px;
+  }
+  .carousel-content{
+    margin-top: -120px !important;
+  }
+
+
+.estimation-widget {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important ;
+    height: 100% !important ;
+    border: none !important;
+}
+  /* Estimation section styles */
+.estimation-section2 {
+position: relative; /* Ensure it's in the flow */
+z-index: 2; /* Bring it above the carousel */
+margin-top: -170px !important ; /* Adjust as needed to move it higher */
+background-color: #f8f9fa00; /* Example background color */
+padding: 20px 0px 0px 0px; /* Example padding */
+text-align: center;
+overflow-y: hidden !important;
+
+}
+
+.estimation-tool2 {
+width: 800px ;
+margin-top: 7em !important;
+height: 540px !important ;
+border: none ;
+overflow-y: hidden ; /* Hide vertical scrollbar */
+overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+.estimation-widget-container {
+width: 98% !important;
+max-width: 800px;
+background-color: rgba(255, 255, 255, 1) !important;
+padding: 20px 0px 0px 0px !important;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+border-radius: 10px;
+margin: auto;
+overflow-y: hidden !important;
+}
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 3.5rem;
+ margin-top: 22em;
+}
+.main-size{
+  font-size: 2.8em;
+}
+.title-text{
+  font-size: 1em;
+}
+.navbar-brand{
+  padding-left: .5em;
+}
+.logo{
+  width: 7em;
+  height: 5.5em;
+}}
+@media (min-width: 410px) and (max-width: 423px){
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 620px;
+  }
+  .carousel-content{
+    margin-top: -120px !important;
+  }
+
+
+.estimation-widget {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important ;
+    height: 100% !important ;
+    border: none !important;
+}
+  /* Estimation section styles */
+.estimation-section2 {
+position: relative; /* Ensure it's in the flow */
+z-index: 2; /* Bring it above the carousel */
+margin-top: -170px !important ; /* Adjust as needed to move it higher */
+background-color: #f8f9fa00; /* Example background color */
+padding: 20px 0px 0px 0px; /* Example padding */
+text-align: center;
+overflow-y: hidden !important;
+
+}
+
+.estimation-tool2 {
+width: 800px ;
+margin-top: 7em !important;
+height: 540px !important ;
+border: none ;
+overflow-y: hidden ; /* Hide vertical scrollbar */
+overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+.estimation-widget-container {
+width: 98% !important;
+max-width: 800px;
+background-color: rgba(255, 255, 255, 1) !important;
+padding: 20px 0px 0px 0px !important;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+border-radius: 10px;
+margin: auto;
+overflow-y: hidden !important;
+}
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 3.5rem;
+ margin-top: 22em;
+}
+.main-size{
+  font-size: 2.8em;
+}
+.title-text{
+  font-size: 1em;
+}
+.navbar-brand{
+  padding-left: .5em;
+}
+.logo{
+  width: 7em;
+  height: 5.5em;
+}}
+@media (min-width: 423px) and (max-width: 990px){
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 620px;
+  }
+  .carousel-content{
+    margin-top: -120px !important;
+  }
+
+
+.estimation-widget {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important ;
+    height: 100% !important ;
+    border: none !important;
+}
+  /* Estimation section styles */
+.estimation-section2 {
+position: relative; /* Ensure it's in the flow */
+z-index: 2; /* Bring it above the carousel */
+margin-top: -170px !important ; /* Adjust as needed to move it higher */
+background-color: #f8f9fa00; /* Example background color */
+padding: 20px 0px 0px 0px; /* Example padding */
+text-align: center;
+overflow-y: hidden !important;
+
+}
+
+.estimation-tool2 {
+width: 800px ;
+margin-top: 7em !important;
+height: 540px !important ;
+border: none ;
+overflow-y: hidden ; /* Hide vertical scrollbar */
+overflow-x: hidden !important ; /* Hide horizontal scrollbar */}
+.estimation-widget-container {
+width: 98% !important;
+max-width: 800px;
+background-color: rgba(255, 255, 255, 1) !important;
+padding: 20px 0px 0px 0px !important;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+border-radius: 10px;
+margin: auto;
+overflow-y: hidden !important;
+}
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary);
+  border: 15px solid var(--primary);
+  border-radius: 3.5rem;
+ margin-top: 22em;
+}
+.main-size{
+  font-size: 2.8em;
+}
+.title-text{
+  font-size: 1em;
+}
+.navbar-brand{
+  padding-left: .5em;
+}
+.logo{
+  width: 7em;
+  height: 5.5em;
+}}
