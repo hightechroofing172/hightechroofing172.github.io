@@ -8231,7 +8231,7 @@ margin-left: .3em;
   .body-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400 !important;
-    font-size: 1.09em;
+    font-size: 1.12em;
     margin-top: .35em;
   }
  
@@ -8258,7 +8258,7 @@ margin-left: .3em;
     pointer-events: none; /* Ensure the image doesn't interfere with text selection */
   }
   .facebook-logo {
-    width: 230px !important; /* Adjust the width as needed */
+    width: 212px !important; /* Adjust the width as needed */
     height: auto !important;  /* Maintain aspect ratio */
     margin-top: -5px !important; /* Adjust the margin as needed */
     display: block; /* Ensure the image takes its own line */
