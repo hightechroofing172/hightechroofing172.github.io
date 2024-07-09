@@ -10671,7 +10671,7 @@ display: none;
     height: auto !important;  /* Maintain aspect ratio */
     margin-top: -5px !important; /* Adjust the margin as needed */
     display: block; /* Ensure the image takes its own line */
-    margin-left: auto;
+    margin-left: 0 !important;
     margin-bottom: 10px; /* Space between the image and the button */
   }
 .btn-carousel{
