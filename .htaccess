@@ -1,8 +1,0 @@
-RewriteEngine On
-
-# Redirect non-www to www for the entire site
-RewriteCond %{HTTP_HOST} ^oceancityheatingandcooling.com [NC]
-RewriteRule ^(.*)$ https://www.oceancityheatingandcooling.com/$1 [L,R=301]
-
-# Redirect a specific old URL to the new URL
-Redirect 301 /old-about https://www.oceancityheatingandcooling.com/about.html

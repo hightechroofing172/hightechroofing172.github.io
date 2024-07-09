@@ -449,7 +449,9 @@ margin-left: 0px;
   bottom: 0;
   align-items: center;
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3449754901960784) 100%);  z-index: 1;
+  background: linear-gradient(90deg, rgba(0,0,0, .92) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
+
+   z-index: 1;
 }
 
 
@@ -5760,7 +5762,8 @@ margin-left: .3em;
     bottom: 0;
     align-items: center;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0, .93) 0%, rgba(0,0,0,0.3449754901960784) 100%);  z-index: 1;
+    background: linear-gradient(90deg, rgba(0,0,0, .83) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
+     z-index: 1;
   }
   
   .carousel-bottom-shape {
@@ -8168,7 +8171,8 @@ margin-left: .3em;
     bottom: 0;
     align-items: center;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0, .93) 0%, rgba(0,0,0,0.3449754901960784) 100%);  z-index: 1;
+    background: linear-gradient(90deg, rgba(0,0,0, .83) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
+ z-index: 1;
   }
   
   .carousel-bottom-shape {
@@ -9371,7 +9375,8 @@ display: none;
     bottom: 0;
     align-items: center;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0, .93) 0%, rgba(0,0,0,0.3449754901960784) 100%);  z-index: 1;
+    background: linear-gradient(90deg, rgba(0,0,0, .83) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
+    z-index: 1;
   }
   
   .carousel-bottom-shape {
@@ -10584,7 +10589,9 @@ display: none;
     bottom: 0;
     align-items: center;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0, .93) 0%, rgba(0,0,0,0.3449754901960784) 100%);  z-index: 1;
+    background: linear-gradient(90deg, rgba(0,0,0, .83) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
+
+     z-index: 1;
   }
   
   .carousel-bottom-shape {
@@ -22725,7 +22732,7 @@ background-color: #1E1E1E; /* Black color */
 z-index: -1; /* Ensure it is behind the image */
 } 
 }
-@media (min-width: 1900px) and (max-width: 2100px){
+@media (min-width: 1900px) and (max-width: 10000px){
   .section-header-text-big{
     font-size: 1.2em ;
   }
@@ -22753,13 +22760,13 @@ z-index: -1; /* Ensure it is behind the image */
 
 
   .font-type-service-page-header2{
-    font-family: "Alegreya", serif;
-    font-weight: 400 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important ;
     text-transform: uppercase;
       font-style: normal;
-      font-size: 4.31994em !important;
-      letter-spacing: 2px !important;
-      margin-top: -.42em;
+      font-size: 4.931994em !important;
+      letter-spacing: 0px !important;
+      margin-top: .12em;
   }
   .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
@@ -28183,4 +28190,10 @@ font-weight: 600 !important;
     .hide-on-mobile {
         display: none;
     }
+}
+.text-colour-footer{
+  color: #FF1A3D;
+}
+.text-colour-footer:hover{
+  color: #FF1A3D;
 }
