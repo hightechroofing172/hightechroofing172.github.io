@@ -8175,7 +8175,7 @@ margin-left: .3em;
     bottom: 0;
     align-items: center;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0, .77) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
+    background: linear-gradient(90deg, rgba(0,0,0, .7) 0%, rgba(0,0,0,0.3449754901960784) 100%);  
       z-index: 1;
   }
   
@@ -8209,8 +8209,8 @@ margin-left: .3em;
     color: #fff;
     line-height: 1.2;
     font-weight: 600 !important;
-    margin-top: .15em !important;
-    font-size: 2.45em;
+    margin-top: .0em !important;
+    font-size: 2.65em;
   }
   .text-container {
     position: absolute;
