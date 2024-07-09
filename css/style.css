@@ -8548,8 +8548,8 @@ margin-left: .3em;
       }  
    
     .navbar-toggler{
-      margin-right: -.75em !important;
-      margin-bottom: -.45em;
+      margin-right: -.95em !important;
+      margin-bottom: -1em !important;
     }
   }
 /* Media query for screens between 410px and 425 */
