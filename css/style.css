@@ -523,7 +523,7 @@ padding: 1em 0em;
 }
 .page-header {
   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
-  url(../img/carousel-1.jpg) center right no-repeat;
+  url(../img/page-header.jpg) top right no-repeat ;
 background-size: cover; /* Ensures the image covers the entire container */
   height: 375px;
 }
@@ -2453,14 +2453,14 @@ font-weight: 400 !important;
     text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
   font-size: 1.9em;
 }
-.font-type-services-big{
+.font-type-services-sub{
   color: #121212   ;
-  font-family: "Alegreya", serif;
-  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
     font-style: normal;
     text-transform: uppercase;
     text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-  font-size: 1.25315em;
+  font-size: 1.59em;
 }
 .font-bold{
   color: #121212   ;
@@ -2539,6 +2539,13 @@ color: #020202;
     font-weight: 600;
     color: #161616;
     font-size: 1.25em !important;
+  }
+  
+  .service-bold2{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.1em !important;
   }
   
 .blog .posts-list .post-content {
@@ -3149,8 +3156,8 @@ margin-left: .3em;
     letter-spacing: 0px;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.69em !important;
-      margin-top: -1.3em;
+      font-size: 2.4em !important;
+      margin-top: -1.2em;
       text-transform: uppercase;
   }
   /* Service PAGE END  HEADER222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
@@ -3744,6 +3751,12 @@ margin-left: .3em;
     font-weight: 600;
     color: #161616;
     font-size: 1.25em !important;
+  }
+  .service-bold2{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.1em !important;
   }
   
 .blog .posts-list .post-content {
@@ -4355,7 +4368,7 @@ margin-left: .3em;
     letter-spacing: 0px;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.69em !important;
+      font-size: 2.32em !important;
       margin-top: -1.3em;
       text-transform: uppercase;
   }
@@ -4366,7 +4379,7 @@ margin-left: .3em;
     letter-spacing: 0px;
     font-weight: 600 ;
       font-style: normal;
-      font-size: 2.9em !important;
+      font-size: 2.72em !important;
       margin-top: -.65em;
   }
   
@@ -4952,6 +4965,12 @@ margin-left: .3em;
     font-weight: 600;
     color: #161616;
     font-size: 1.25em !important;
+  }
+  .service-bold2{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.08em !important;
   }
   
 .blog .posts-list .post-content {
@@ -5563,7 +5582,7 @@ margin-left: .3em;
     letter-spacing: 0px;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.69em !important;
+      font-size: 2.01em !important;
       margin-top: -1.3em;
       text-transform: uppercase;
   }
@@ -5574,7 +5593,7 @@ margin-left: .3em;
     letter-spacing: 0px;
     font-weight: 600 ;
       font-style: normal;
-      font-size: 2.9em !important;
+      font-size: 2.41em !important;
       margin-top: -.65em;
   }
   
@@ -6160,6 +6179,12 @@ margin-left: .3em;
     font-weight: 600;
     color: #161616;
     font-size: 1.25em !important;
+  }
+  .service-bold2{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.1em !important;
   }
   
 .blog .posts-list .post-content {
@@ -6771,7 +6796,7 @@ margin-left: .3em;
     letter-spacing: 0px;
     font-weight: 600 !important;
       font-style: normal;
-      font-size: 2.69em !important;
+      font-size: 2.5em !important;
       margin-top: -1.3em;
       text-transform: uppercase;
   }
@@ -7365,6 +7390,12 @@ margin-left: .3em;
     font-weight: 600;
     color: #161616;
     font-size: 1.25em !important;
+  }
+  .service-bold2{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.1em !important;
   }
   
 .blog .posts-list .post-content {
@@ -8569,6 +8600,12 @@ margin-left: .3em;
     font-weight: 600;
     color: #161616;
     font-size: 1.25em !important;
+  }
+  .service-bold2{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.15em !important;
   }
   
 .blog .posts-list .post-content {
@@ -9776,6 +9813,14 @@ margin-left: .3em;
   }
   
   .service-bold{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.25em !important;
+  }
+  
+  
+  .service-bold2{
     font-family: 'Poppins' sans-serif;
     font-weight: 600;
     color: #161616;
@@ -10990,6 +11035,13 @@ display: none;  }
   }
   
   .service-bold{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #161616;
+    font-size: 1.25em !important;
+  }
+  
+  .service-bold2{
     font-family: 'Poppins' sans-serif;
     font-weight: 600;
     color: #161616;
@@ -12298,7 +12350,7 @@ section#testimonial {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    margin-right: 3em !important;
+    margin-right: 2em !important;
   }
   .user{
     width: 2.75em !important;
@@ -12483,7 +12535,7 @@ section#testimonial {
     height: 1020px !important;
   }
   .services-image4{
-    height: 1020px !important;
+    height: 1660px !important;
   }
   .services-image5{
     height: 1275px !important;
@@ -12492,15 +12544,13 @@ section#testimonial {
     height: 1590px !important;
   }
 
-  .font-type-service-page-header2-big{
-    font-size: 1.2em;
-  }
+
   .font-type-service-page-header2{
     font-family: "Poppins", sans-serif !important;
     font-weight: 600 !important ;
     text-transform: uppercase;
       font-style: normal;
-      font-size: 4em !important;
+      font-size: 3.7em !important;
       letter-spacing: 0px !important;
       margin-top: -.45em;
   }
@@ -13447,7 +13497,7 @@ section#testimonial {
     height: 1020px !important;
   }
   .services-image4{
-    height: 1020px !important;
+    height: 1660px !important;
   }
   .services-image5{
     height: 1275px !important;
@@ -13456,15 +13506,13 @@ section#testimonial {
     height: 1590px !important;
   }
 
-  .font-type-service-page-header2-big{
-    font-size: 1.2em;
-  }
+
   .font-type-service-page-header2{
     font-family: "Poppins", sans-serif !important;
     font-weight: 600 !important ;
     text-transform: uppercase;
       font-style: normal;
-      font-size: 4em !important;
+      font-size: 3.7em !important;
       letter-spacing: 0px !important;
       margin-top: -.45em;
   }
@@ -14401,7 +14449,7 @@ section#testimonial {
     height: 1020px !important;
   }
   .services-image4{
-    height: 1020px !important;
+    height: 1670px !important;
   }
   .services-image5{
     height: 1275px !important;
@@ -14410,15 +14458,13 @@ section#testimonial {
     height: 1590px !important;
   }
 
-  .font-type-service-page-header2-big{
-    font-size: 1.2em;
-  }
+
   .font-type-service-page-header2{
     font-family: "Poppins", sans-serif !important;
     font-weight: 600 !important ;
     text-transform: uppercase;
       font-style: normal;
-      font-size: 4em !important;
+      font-size: 3.8em !important;
       letter-spacing: 0px !important;
       margin-top: -.45em;
   }
@@ -15365,7 +15411,7 @@ section#testimonial {
     height: 1020px !important;
   }
   .services-image4{
-    height: 1020px !important;
+    height: 1670px !important;
   }
   .services-image5{
     height: 1275px !important;
@@ -15374,15 +15420,13 @@ section#testimonial {
     height: 1590px !important;
   }
 
-  .font-type-service-page-header2-big{
-    font-size: 1.2em;
-  }
+
   .font-type-service-page-header2{
     font-family: "Poppins", sans-serif !important;
     font-weight: 600 !important ;
     text-transform: uppercase;
       font-style: normal;
-      font-size: 4em !important;
+      font-size: 3.84em !important;
       letter-spacing: 0px !important;
       margin-top: -.45em;
   }
@@ -16328,7 +16372,7 @@ section#testimonial {
     height: 1020px !important;
   }
   .services-image4{
-    height: 1020px !important;
+    height: 1610px !important;
   }
   .services-image5{
     height: 1275px !important;
@@ -17287,7 +17331,7 @@ section#testimonial {
     height: 900px !important;
   }
   .services-image4{
-    height: 970px !important;
+    height: 1600px !important;
   }
   .services-image5{
     height: 1115px !important;
@@ -18263,7 +18307,7 @@ section#testimonial {
     height: 900px !important;
   }
   .services-image4{
-    height: 970px !important;
+    height: 1450px !important;
   }
   .services-image5{
     height: 1115px !important;
@@ -19241,7 +19285,7 @@ section#testimonial {
     height: 800px !important;
   }
   .services-image4{
-    height: 850px !important;
+    height: 1450px !important;
   }
   .services-image5{
     height: 1005px !important;
@@ -20218,7 +20262,7 @@ section#testimonial {
     height: 800px !important;
   }
   .services-image4{
-    height: 850px !important;
+    height: 1450px !important;
   }
   .services-image5{
     height: 1005px !important;
@@ -20995,6 +21039,7 @@ z-index: -1; /* Ensure it is behind the image */
     color: #161616;
     font-size: 1.31em !important;
   }
+  
   .font-type-service-header{
     text-align: center;
     text-transform: uppercase;
@@ -21202,7 +21247,7 @@ section#testimonial {
     height: 890px !important;
   }
   .services-image4{
-    height: 930px !important;
+    height: 1550px !important;
   }
   .services-image5{
     height: 1095px !important;
@@ -22186,7 +22231,7 @@ section#testimonial {
     height: 890px !important;
   }
   .services-image4{
-    height: 930px !important;
+    height: 1550px !important;
   }
   .services-image5{
     height: 1095px !important;
@@ -23171,7 +23216,7 @@ section#testimonial {
     height: 890px !important;
   }
   .services-image4{
-    height: 930px !important;
+    height: 1550px !important;
   }
   .services-image5{
     height: 1095px !important;
@@ -23954,7 +23999,7 @@ z-index: -1; /* Ensure it is behind the image */
     height: 810px !important;
   }
   .services-image4{
-    height: 910px !important;
+    height: 1520px !important;
   }
   .services-image5{
     height: 1040px !important;
@@ -24011,7 +24056,7 @@ z-index: -1; /* Ensure it is behind the image */
   
   .page-header {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
-    url(../img/carousel-1.jpg) center center no-repeat;    background-size: cover;
+    url(../img/page-header.jpg) center center no-repeat;    background-size: cover;
     height: 370px !important;
   }
   
@@ -25151,7 +25196,7 @@ z-index: -1; /* Ensure it is behind the image */
     height: 810px !important;
   }
   .services-image4{
-    height: 910px !important;
+    height: 1520px !important;
   }
   .services-image5{
     height: 1040px !important;
@@ -26438,7 +26483,7 @@ section#testimonial {
     height: 900px !important;
   }
   .services-image4{
-    height: 970px !important;
+    height: 1598px !important;
   }
   .services-image5{
     height: 1115px !important;
@@ -29416,4 +29461,29 @@ font-weight: 600 !important;
 }
 .phone-rotate{
   transform: rotate(110deg);
+}.footer-icon-colour {
+    color: #ffffff;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact-item .me-3 {
+    margin-right: 1rem;
+}
+.footer-link{
+  color: #B0B9AE ;
+  text-decoration: underline;
+}
+.footer-link:hover{
+  color: #B0B9AE ;
+  text-decoration: underline;
+}
+.hover-white{
+  color: #fff;
+}
+.hover-white:hover{
+  color: #fff;
 }
