@@ -2524,6 +2524,13 @@ color: #020202;
 
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) {
+  .blog-header{
+    font-family: "Poppins", sans-serif;
+  color: #161616;
+  line-height: 35px !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;}
+   /* Define the default background color for dropdown items */
  /* Define the default background color for dropdown items */
  .dropdown-item {
   background-color: #fff; /* Default background color */
@@ -4947,7 +4954,15 @@ margin-left: .3em;
     .navbar-toggler{
       margin-right: -.75em !important;
       margin-bottom: -.45em;
-    }}
+    }
+    .blog-header{
+      font-family: "Poppins", sans-serif;
+    color: #161616;
+    line-height: 35px !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;}
+     /* Define the default background color for dropdown items */
+  }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 100px) and (max-width: 321px) {
   /* Define the default background color for dropdown items */
@@ -4959,7 +4974,13 @@ margin-left: .3em;
   font-size: 1.1em;
   /* Add other styles (e.g., padding, border, etc.) as needed */
   }
-  
+  .blog-header{
+    font-family: "Poppins", sans-serif;
+  color: #161616;
+  line-height: 35px !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;}
+   /* Define the default background color for dropdown items */
   .service-bold{
     font-family: 'Poppins' sans-serif;
     font-weight: 600;
@@ -7371,10 +7392,22 @@ margin-left: .3em;
       margin-right: -.75em !important;
       margin-bottom: -.45em;
     }
-  
+    .blog-header{
+      font-family: "Poppins", sans-serif;
+    color: #161616;
+    line-height: 35px !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;}
+     /* Define the default background color for dropdown items */
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 410px) and (max-width: 425px) {
+  .blog-header{
+    font-family: "Poppins", sans-serif;
+  color: #161616;
+  line-height: 35px !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;}
    /* Define the default background color for dropdown items */
  .dropdown-item {
   background-color: #fff; /* Default background color */
