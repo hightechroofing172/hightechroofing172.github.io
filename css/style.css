@@ -271,7 +271,7 @@ font-size: 1.27em;
 
 /* Define the background color when a dropdown item is clicked */
 .dropdown-item:active {
-background-color: #FC1B3D; /* New background color when clicked (green in this example) */
+background-color: #EA7629; /* New background color when clicked (green in this example) */
 /* You can change this color to the desired color */
 }
 
@@ -25241,6 +25241,7 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1700px) and (max-width: 1799px){
+ 
   .carousel-item{
     height: 820px !important;
   }
@@ -25925,6 +25926,11 @@ background-position: center !important;
       letter-spacing: .3px;    font-weight: 400 !important;
       font-style: normal;
       font-size: 1.37em !important;
+  }
+  .topbar-text3{
+    white-space: nowrap;
+    margin-left: 10.35em !important;
+
   }
   .envelope-icon{
     font-size: .88em;
@@ -32339,7 +32345,7 @@ background-size: contain !important;  }
         width: 70%;
         margin-top: -8% !important;
         text-align: left;
-        margin-left: -5em;
+        margin-left: -10em;
       }
       .border-left{
         border-left: white solid 2px;
@@ -33364,6 +33370,11 @@ background-position: top !important;
       letter-spacing: .3px;    font-weight: 400 !important;
       font-style: normal;
       font-size: 1.23em !important;
+  }
+  .topbar-text3{
+    white-space: nowrap;
+    margin-left: 7.35em !important;
+
   }
   .envelope-icon{
     font-size: .88em;
