@@ -13223,12 +13223,13 @@ font-family: "Montserrat", sans-serif;
   }  .navbar {
     margin-top: -50px; /* Negative margin to pull it up */
     border-top: none !important; /* Remove the top border if present */
+    height: 80px !important;
   }
   .logo{
     width: 10em !important;
     position: sticky;
     z-index: 10000;
-    margin-top: .2em !important;
+    margin-top: -.2em !important;
   } .email{
     font-weight: 600 !important;
 
