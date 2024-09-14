@@ -409,22 +409,6 @@ text-transform: uppercase;
     z-index: 10;
   }
 
-  @media (max-width: 707px) {
-      #header-carousel .carousel-item {
-          position: relative;
-          min-height: 550px;
-      }
-      
-      #header-carousel .carousel-item img {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          
-          object-fit: cover;
-      }
-
-    
-  }
 
   .margin-left{
     margin-left: 27.5em;
@@ -1451,10 +1435,7 @@ width: 9em;
   overflow: visible !important;
 }
 
-  @media only screen and (max-width: 770px) {
-
-  }
-
+  
   @media only screen and (max-width: 1200px) {
     a.phone-no {
       display: none;
@@ -1719,56 +1700,7 @@ width: 9em;
     padding-top: 10px;
     padding-bottom: 100px;
   }}
-  @media (max-width: 767px) {
-    .chooseus {
-        padding: 0px 0px 50px 0px;
-    }
-    
-    .chooseus__text {
-        text-align: center;
-    }
-    
-    .chooseus__text .section-title {
-        margin-bottom: 20px;
-    }
-    
-    .chooseus__text ul {
-        margin-bottom: 120px;
 
-    }
-    
-    .chooseus__text ul li {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-    
-    .chooseus__video {
-      justify-content: center;
-      align-items: center;
-      height: 100%; /* Adjust the height as needed */
-      margin-top: 3em;
-  }
-
-  .chooseus__video img {
-      width: 94%;
-  margin-left: 3%;
-    margin-right: 3%;
-      height: 300px;
-      object-fit: cover;
-    padding-bottom: 2em;
-  }
-
-
-
-  }
-  .chooseus {
-  background-color: #FFFFFF;
-  margin-bottom: 5em
-  }
-  .chooseus i {
-  color: #FFFFFF;
-  padding-top: .85em;
-  }
   .body-background{
     background-color: #F4F6F8;
   }
@@ -1782,47 +1714,7 @@ width: 9em;
 
 
   /* Mobile Styles */
-  @media (max-width: 778px) {
-    .mobile-overlay {
 
-      padding: 0;
-      height: 120vh;
-      margin: 0;
-      width: 120%;
-      display: block;
-    }
-    .contact-overlay {
-      display: none;
-    }
-  }
-  /* Mobile Styles */
-  @media (max-width: 1000px) {
-    /* Adjust map container height */
-    .container-flu iframe {
-      height: 780px; /* Adjust height as needed */
-      width: 130vh;
-    }
-
-    /* Apply grayscale filter to the map */
-    .container-flu iframe {
-      filter: grayscale(30%) !important;
-      }
-    
-    .text-contact{
-      color: #ffffff;
-    }
-    .mobile-overlay {
-z-index: -1;
-      padding: 0;
-      height: 100vh;
-      margin: 0;
-      width: 120%;
-      display: flex;
-    }
-    .contact-overlay {
-width: 100vh;    }
-  }
-  
   /* Define the background color when a dropdown item is clicked */
   .dropdown-item{
     color: #cdcdcd;
@@ -1930,195 +1822,6 @@ margin-top: 15em;
   width: 2.75em;
   }
 
-
-  @media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
-    .chooseus {
-          padding: 0px 0px 50px 0px;
-      }
-      .refrigeration-style{
-        width: 22em;
-    padding-right: 2em;    
-    margin-top: 0em;
-      }
-      .chooseus__text {
-          text-align: center;
-      }
-      #header-carousel .carousel-item {
-        position: relative;
-        min-height: 550px;
-    }
-    
-    #header-carousel .carousel-item img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        width: 3rem;
-        height: 3rem;
-        border-width: 12px;
-    }
-      .chooseus__text .section-title {
-          margin-bottom: 20px;
-      }
-      
-      .chooseus__text ul {
-          margin-bottom: 120px;
-
-      }
-      
-      .chooseus__text ul li {
-          font-size: 14px;
-          line-height: 1.5;
-      }
-      
-      .chooseus__video {
-        justify-content: center;
-        align-items: center;
-        height: 100%; /* Adjust the height as needed */
-        margin-top: 3em;
-    }
-
-    .chooseus__video img {
-        width: 94%;
-    margin-left: 3%;
-      margin-right: 3%;
-        height: 100%;
-        object-fit: fill;
-      padding-bottom: 2em;
-    }
-
-    .phone-number {
-      position: absolute;
-      top: 50%;
-      left: 45px; /* Adjust the left position of the phone number */
-      transform: translateY(-50%);
-      color: white;
-      font-size: 19px;
-      font-family: "Kanit", sans-serif;
-      font-weight: 500;
-    }
-    .phone-number:hover {
-      position: absolute;
-      top: 50%;
-      left: 45px; /* Adjust the left position of the phone number */
-      transform: translateY(-50%);
-      color: white;
-      font-size: 19px;
-      font-family: "Kanit", sans-serif;
-      font-weight: 500;
-    }
-    .phone-icon {
-      position: absolute;
-      top: 50%;
-      left: 20px; /* Adjust the left position of the phone icon */
-      transform: translateY(-50%);
-      color: white;
-      font-size: 16px;
-    }
-    .slanted-topbar::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 60%; /* Starting from the end of the red section */
-      width: 60%; /* 1/5 of the width */
-      height: 100%;
-      background-color: #EB1C24; /* Black color */
-      transform-origin: top right;
-      transform: skewX(-30deg); /* Skew the section to create slant */
-    }
-    .get-quote .i1 {
-      margin-left: 10px; /* Add spacing between text and icon */
-      font-size: 16px;
-    }
-
-
-    .get-quote .i2 {
-      display: inline  ;}
-    .white-line {
-      position: absolute;
-      top: 0;
-      left: 60%; /* Starting from the end of the red section */
-      width: 6px; /* Width of the white line */
-      height: 100%;
-      background-color: white; /* White color */
-      z-index: 1; /* Ensure the white line appears above the black section */
-      transform-origin: top right;
-      transform: skewX(-30deg); /* Apply the same slant as the black section */
-    }
-    .get-quote {
-      position: absolute;
-      top: 50%;
-      left: 70%; /* Place in the middle of the black section */
-      color: white;
-      font-size: 19px;
-      cursor: pointer;
-      font-family: "Kanit", sans-serif;
-      font-weight: 500;
-
-      z-index: 2; /* Ensure the text appears above the white line */
-    }
-    .get-quote:hover {
-      position: absolute;
-      top: 50%;
-      left: 70%; /* Place in the middle of the black section */
-      color: white;
-      font-size: 19px;
-      cursor: pointer;
-      font-family: "Kanit", sans-serif;
-      font-weight: 500;
-
-      z-index: 2; /* Ensure the text appears above the white line */
-    }
-    .carousel-item {
-      position: absolute;
-      width: 100%;
-      height: 70vh;
-      object-fit: cover;
-    }
-    .testimonial-section{
-      margin-top: 3em;
-      margin-bottom: 6em;
-    }
-    .testimonial-content {
-      position: relative;
-      background: #ffffff;
-      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow to the top */
-      margin: 0em 0em 6em 0em; /* Reset margin */
-      padding: 20px; /* Add padding as needed */
-    }
-    
-      }
-
-      @media screen and (min-width: 1000px) and (max-width: 1070px){
-        .contact-overlay{
-          height: 86.54vh;
-          left: -0.95%;
-        }
-        
-      }
-      @media screen and (min-width: 1070px) and (max-width: 1200px){
-        .contact-overlay{
-          height: 89.54vh;
-          left: -0.95%;
-        }
-        iframe {
-          height: 668px !important; /* Adjust the height as needed */
-        }
-      
-        
-      }
-      @media screen and (max-width: 1000px){
-        .refrigeration-style{
-          width: 25em;
-      padding-right: 2em;    
-        }
-
-
-      }
 
 
 
@@ -13300,6 +13003,216 @@ font-size: 2.3em;
       margin: 0;
     }
 } 
+@media (min-width: 1000px) and (max-width: 1070px){
+/* Ensure the carousel-item is positioned relatively */
+.carousel-item {
+  position: relative;
+}
+
+/* Gradient overlay */
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, .91), rgba(0, 0, 0, 0.3)); /* Adjust the gradient as needed */
+  z-index: 1; /* Ensure the overlay is above the image but below the content */
+}
+
+/* Ensure the carousel content is above the gradient */
+.carousel-caption {
+  position: relative;
+  z-index: 2; /* This keeps the text and buttons above the gradient overlay */
+}
+
+
+#header-carousel .carousel-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  z-index: 1 !important;
+  height: 3rem;
+  border-width: 0px !important;
+}.underline-image {
+  position: relative;
+  display: inline-block;
+}
+
+.intro-text{
+  max-width: 50%;
+  font-size: 1.4em !important;
+}
+.underline-image::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px; /* Adjust this value to position the underline correctly */
+  height: 20px; /* Adjust this value based on the height of your underline image */
+  background-image: url('../img/underline.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.carousel-bottom-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 100px solid white;
+  z-index: 1;
+  overflow-x: hidden !important;
+  } .border-left{
+    border-left: white solid 2px;
+    margin-top: 0em !important;
+    right: 6% !important;
+    height: 460px !important;
+    margin-left: .9em !important;
+  }
+  .btn-carousel {
+    position: relative;
+    background: rgb(103,180,184);
+    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding:  1em 5em .15em 3em ;
+    border-radius: 0em ;
+    font-size: 27.7px;
+
+    z-index: 2 ;
+  letter-spacing: 0px ;
+    font-weight: 500 ;
+}
+  .btn-carousel2 {
+    position: relative;
+    background: transparent !important;
+    border: 2px solid white ;
+      color: #fff;
+    text-align: center !important;
+    text-transform: uppercase;
+    padding: .95em 4em .95em 3em !important;
+    border-radius: 0em !important;
+    font-size: 21.7px;
+    z-index: 2 !important;
+  letter-spacing: 0px !important;
+  margin-left: 1.74em !important;
+    font-weight: 500 !important;
+}
+.arrow-icon {
+  height: auto;
+  width: 55px !important;
+  z-index: 1111 !important;
+  object-fit: contain !important;
+  margin-top: -22px !important;
+    margin-left: 0px !important; /* Adjust the margin as needed */
+  }
+
+  .carousel-buttons-box{
+    display: flex !important;
+  }
+ .logo-container {
+    position: relative; /* Ensure the child elements are positioned relative to this container */
+    display: flex;
+    top: -40px !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.2em !important;
+  }
+   .logo-container img {
+
+    z-index: 1 !important;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1; /* Ensure left and right content take equal space */
+  }
+  
+  .navbar-brand {
+    position: absolute; /* Position the logo absolutely to center it */
+    left: 50%;
+    z-index: 1 !important;
+margin-top: 7em;
+    transform: translateX(-50%); /* Center the logo horizontally */
+  }   .left-content{
+    margin-top: .75em;
+    font-size: 22px;
+color: #ffff;
+padding-top: 40px !important;
+
+padding-left: 12em;
+letter-spacing: .2px; /* Adjust the value as needed */
+
+  } .phone-number2 {
+  }   .right-content{
+    margin-top: .75em;
+    font-size: 22px;
+color: #ffff;
+padding-top: 40px !important;
+
+padding-left: 11em;
+letter-spacing: .2px; /* Adjust the value as needed */
+
+  } .phone-number2 {
+    display: inline-block;
+    position: absolute;
+    font-size: 1.15em !important;
+    margin-left: 2.1em ;
+    letter-spacing: 0px !important;
+font-weight: 600 !important;
+font-family: "Montserrat", sans-serif;
+
+    text-decoration: none;
+  }
+  .phone-icon2 {
+    transform: rotate(110deg);
+    display: inline-block;
+    position: absolute;
+    font-size: 1.1em ;
+  margin-left: 17px;
+    
+  }  .navbar {
+    margin-top: -50px; /* Negative margin to pull it up */
+    border-top: none !important; /* Remove the top border if present */
+  }
+  .logo{
+    width: 12em !important;
+    position: sticky;
+    z-index: 10000;
+    margin-top: .2em !important;
+  } .email{
+    font-weight: 600 !important;
+
+    font-size: 1.1em !important;
+    font-family: "Montserrat", sans-serif;
+    text-transform: lowercase !important;
+  } 
+  .left-mobile-none{
+    font-weight: 600 !important;
+
+    font-size: 1.2em !important;
+    font-family: "Montserrat", sans-serif;
+  }  
+
+  .about-img-container {
+    position: relative;
+  }
+  
+}
 
 
 .service-page-header {
