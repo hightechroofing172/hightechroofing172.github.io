@@ -2540,7 +2540,7 @@ font-family: "Montserrat", sans-serif;
     width: 12em !important;
     position: sticky;
     z-index: 10000;
-    margin-top: .2em !important;
+    margin-top: .2em ;
   } .email{
     font-weight: 600 !important;
 
