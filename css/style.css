@@ -12556,7 +12556,13 @@ font-size: 2.3em;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-}
+} .navbar-brand {
+  position: absolute; /* Position the logo absolutely to center it */
+  left: 50%;
+  z-index: 1 !important;
+margin-top: 2em;
+  transform: translateX(-50%); /* Center the logo horizontally */
+}   
 
 /* Gradient overlay */
 .carousel-item::before {
