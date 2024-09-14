@@ -10245,7 +10245,7 @@ font-size: 2em;
   }
   
 } 
-@media (min-width: 699px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 800px) {
   .logo-container{
     background-color: #63B4B8 ;
   }
