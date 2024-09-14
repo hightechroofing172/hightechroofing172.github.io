@@ -8903,7 +8903,7 @@ white-space: nowrap !important;
         margin-bottom: 13px;
       }
 } 
-@media (min-width: 425px) and (max-width: 699px) {
+@media (min-width: 425px) and (max-width: 599px) {
   .logo-container{
     background-color: #63B4B8 ;
   }
