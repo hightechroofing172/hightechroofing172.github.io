@@ -12690,14 +12690,7 @@ font-size: 2.3em;
   .right-content {
     flex: 1; /* Ensure left and right content take equal space */
   }
-  
-  .navbar-brand {
-    position: absolute; /* Position the logo absolutely to center it */
-    left: 50%;
-    z-index: 1 !important;
-margin-top: 7em;
-    transform: translateX(-50%); /* Center the logo horizontally */
-  } 
+
     .left-content{
     margin-top: .75em;
     font-size: 22px;
