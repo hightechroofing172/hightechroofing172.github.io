@@ -7178,13 +7178,13 @@ text-transform: uppercase !important;
 .intro-text{
   max-width: 100%;
   text-align: left !important;
-  font-size: 1.23em !important;
+  font-size: 1.2em !important;
 }
 .border-left{
   border-left: white solid 2px;
   margin-top: 0em !important;
   right: 6% !important;
-  height: 540px !important;
+  height: 515px !important;
   margin-left: .3em !important;
 }
 .br-display2{
@@ -7194,11 +7194,11 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 750px !important;
+  height: 720px !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 189px !important;
+  margin-top: 194px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
