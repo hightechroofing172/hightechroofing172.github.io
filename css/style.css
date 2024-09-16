@@ -12828,9 +12828,9 @@ font-family: "Montserrat", sans-serif;
   }
   .logo{
     width: 10em !important;
-    position: sticky;
+    position: relative;
     z-index: 10000;
-    margin-top: -.2em !important;
+    margin-top: 4.2em !important;
   } .email{
     font-weight: 600 !important;
 
