@@ -12552,7 +12552,7 @@ font-size: 2.3em;
       margin: 0;
     }
 } 
-@media (min-width: 1000px) and (max-width: 1070px){
+@media (min-width: 991px) and (max-width: 1070px){
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
