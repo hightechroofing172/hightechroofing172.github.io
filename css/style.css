@@ -1727,10 +1727,10 @@ padding-left: 2em !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 110px !important;
+  margin-top: 110px ;
   }.carousel-caption {
-    top: -110% !important;
-    left: 8% !important;
+    top: -110% ;
+    left: 8% ;
   text-align: left;
     right: 0;
     z-index: 1;
@@ -1740,37 +1740,7 @@ padding-left: 2em !important;
     width: 22em;
   }
 
-  .btn-carousel-2 {
-    position: relative;
-    background: #ffffff00;
-    color: #0c0b11;
-    border: 1px solid #0c0b11 ;
-    text-align: left;
-    text-transform: uppercase;
-    padding: .5em 3em;
-    padding-left: 2em; /* Adjust the left padding to move the text further left */
-    margin-left: 2em;
-    border-radius: 5.21em;
-    font-size: 19.7px;
-    font-weight: 500 !important;
-  }
   
-  .btn-carousel-2:hover {
-    position: relative;
-    background: #FF8E48;
-    color: #ffffff;
-    border: 0px solid #ffffff ;
-    text-align: left;
-    text-transform: uppercase;
-    padding: .5em 3em;
-    padding-left: 2em; /* Adjust the left padding to move the text further left */
-    margin-left: 2em;
-    border-radius: 5.21em;
-    border: 1px solid #FF8E48 ;
-
-    font-size: 19.7px;
-    font-weight: 500 !important;
-  }
   
   .carousel-btn i {
     padding-top: 4px;
@@ -2000,21 +1970,21 @@ padding-left: 2em !important;
       color: #fff;
     text-align: center !important;
     text-transform: uppercase;
-    padding: .95em 4em .95em 3em !important;
+    padding: .95em 4em .95em 3em ;
     border-radius: 0em !important;
     font-size: 21.7px;
     z-index: 2 !important;
   letter-spacing: 0px !important;
-  margin-left: 1.74em !important;
+  margin-left: 1.74em ;
     font-weight: 500 !important;
 }
 .arrow-icon {
   height: auto;
-  width: 55px !important;
-  z-index: 1111 !important;
-  object-fit: contain !important;
-  margin-top: -22px !important;
-    margin-left: 0px !important; /* Adjust the margin as needed */
+  width: 55px ;
+  z-index: 1111 ;
+  object-fit: contain ;
+  margin-top: -22px ;
+    margin-left: 0px ; /* Adjust the margin as needed */
   }
 
   .carousel-buttons-box{
@@ -12553,14 +12523,38 @@ font-size: 2.3em;
     }
 } 
 @media (min-width: 991px) and (max-width: 1070px){
+  .circle-around-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem; /* Size of the outer circle */
+    height: 3.5rem; /* Size of the outer circle */
+    border-radius: 50%;
+    padding: .71em;
+    margin-top: -5em;
+    background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
+    border: 2px solid white; /* White stroke */
+    position: absolute;
+  }
+  .text-container{
+    width: 90%;
+    margin-top: 20px !important;
+    }.carousel-caption {
+      top: 3% !important;
+      left: 4% !important;
+    text-align: left;
+      right: 0;
+      z-index: 1;
+    }
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
+  height: 620px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
   z-index: 1 !important;
-margin-top: 2em;
+margin-top: 0em;
   transform: translateX(-50%); /* Center the logo horizontally */
 }   
 
@@ -12590,21 +12584,44 @@ margin-top: 2em;
   
   object-fit: cover;
 }
+.carousel-control-prev {
+  left: -20px !important; /* Adjust this value to bring it closer to the center */
+}
+
+.carousel-control-next {
+  right: -20px !important; /* Adjust this value to bring it closer to the center */
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 3rem;
+  width: 2.8rem;
   z-index: 1 !important;
-  height: 3rem;
+  height: 2.8rem;
   border-width: 0px !important;
 }.underline-image {
   position: relative;
   display: inline-block;
 }
+.header-text{
+  font-family: "Poppins", system-ui !important;
+  font-weight: 700 !important;
+  color: #fff;
+  line-height: 1.15 ;
+  font-size: 4.25em !important;
+text-transform: uppercase !important;
+}
+.body-text{
+  font-family: "Poppins", system-ui !important;
+  font-weight: 600 !important;
+  color: #fff;
+  letter-spacing: 1px !important;
+  font-size: 1.6em !important;
+text-transform: uppercase !important;
+}
 
 .intro-text{
-  max-width: 50%;
-  font-size: 1.4em !important;
+  max-width: 80%;
+  font-size: 1.2em !important;
 }
 .underline-image::after {
   content: "";
@@ -12635,54 +12652,61 @@ margin-top: 2em;
     border-left: white solid 2px;
     margin-top: 0em !important;
     right: 6% !important;
-    height: 460px !important;
+    height: 388px !important;
     margin-left: .9em !important;
   }
-  .btn-carousel {
+  .btn-carousel, .btn-carousel2 {
     position: relative;
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);    color: #fff;
-    text-align: center;
     text-transform: uppercase;
-    padding:  1em 5em .15em 3em ;
-    border-radius: 0em ;
-    font-size: 27.7px;
-
-    z-index: 2 ;
-  letter-spacing: 0px ;
-    font-weight: 500 ;
+    font-size: 23.7px !important;
+    z-index: 2;
+    letter-spacing: 0px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 60px; /* Set a fixed height */
 }
-  .btn-carousel2 {
-    position: relative;
+
+.btn-carousel {
+    background: rgb(103,180,184);
+    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
+    color: #fff;
+    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
+
+    border: none;
+}
+.btn-carousel2 {
+
+  padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
+
+    
+}
+
+.btn-carousel2 {
     background: transparent !important;
-    border: 2px solid white ;
-      color: #fff;
-    text-align: center !important;
-    text-transform: uppercase;
-    padding: .95em 4em .95em 3em !important;
-    border-radius: 0em !important;
-    font-size: 21.7px;
-    z-index: 2 !important;
-  letter-spacing: 0px !important;
-  margin-left: 1.74em !important;
-    font-weight: 500 !important;
+    border: 2px solid white;
+    color: #fff;
+    margin-left: 1em;
 }
 .arrow-icon {
   height: auto;
-  width: 55px !important;
-  z-index: 1111 !important;
+  width: 50px !important;
   object-fit: contain !important;
-  margin-top: -22px !important;
-    margin-left: 0px !important; /* Adjust the margin as needed */
-  }
+  margin-top: 0px !important;
+  margin-left: 155px; /* Space between arrow and text */
+}
+.arrow-icon2 {
+  height: auto;
+  width: 50px !important;
+  object-fit: contain !important;
+  margin-top: 0px !important;
+  margin-left: 137px; /* Space between arrow and text */
+}
 
-  .carousel-buttons-box{
-    display: flex !important;
-  }
  .logo-container {
     position: relative; /* Ensure the child elements are positioned relative to this container */
     display: flex;
-    top: -40px !important;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 1.2em !important;
