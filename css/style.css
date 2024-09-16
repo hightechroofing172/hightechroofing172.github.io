@@ -2713,7 +2713,7 @@ margin-top: .2em;
 }
 .breadcrumb{
   text-align: center !important;
-margin-left: 43.25% !important;
+margin-left: 43.25% ;
 }
 
   .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -12523,6 +12523,7 @@ font-size: 2.3em;
     }
 } 
 @media (min-width: 991px) and (max-width: 1070px){
+  
   .circle-around-icon {
     display: flex;
     align-items: center;
@@ -12867,7 +12868,403 @@ font-family: "Montserrat", sans-serif;
   .about-img-container {
     position: relative;
   }
+  /* Container for the images */
+/* Container for the images */
+.new-image-wrapper {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+
+  height: 100%;
+  margin-left: 0px; /* Adjust this value to move the entire image block to the left */
+}
+
+/* Main image (larger one) */
+.new-main-image {
+  width: 98%;
+  height: 90%;
+  margin-top: 2em;
+}
+
+/* Secondary image (smaller, partially overlapping) */
+.new-secondary-image {
+  position: absolute;
+  object-fit: cover;
+  width: 85%; /* Adjust the size as needed */
+  height: 85%;
+  bottom: 20px; /* Moves it below the main image */
+  right: -20px;   /* Moves it slightly to the left, extending beyond the main image */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+.about-header-container h5 {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px; /* Space between the line and the text */
+}
+
+.about-header-container h5::before {
+  content: "";
+  position: absolute;
+  left: -30px !important;
+  top: 50%; /* Center the line vertically with the text */
+  width: 30px; /* Length of the line */
+  height: 5px; /* Thickness of the line */
+  background-color: #480F4C; /* Solid black color */
+  transform: translateY(-50%); /* Align the line with the middle of the text */
+}
+
+.about-section-sub-header{
+  font-family: "Poppins", system-ui !important;
+  text-transform: uppercase ;
+  font-weight: 600 !important;
+  margin-left: 1.5em !important;
+  margin-bottom: .5em;
+  font-size: 1.44em !important;
+  color: #414141 !important;
+}
+.about-section-header{
+  font-family: "Poppins", system-ui !important;
+  text-transform: uppercase ;
+  font-weight: 600 !important;
+  margin-left: 0em !important;
+  width: 100%;
+  font-size: 3em !important;
+  color: #000000 !important;
+}
+.reviews-section-header{
+  font-family: "Poppins", system-ui !important;
+  text-transform: uppercase ;
+  font-weight: 600 !important;
+  margin-left: 0em !important;
+  padding: 0em 2em;
+  width: 100%;
+  font-size: 3em !important;
+  color: #000000 !important;
+}
+.space{
+  margin-top: .5em;
+  display: block !important;
+}  
+.contact img{
+  border: 3px solid #480F4C;
+padding: 12px;
+width: 60px;
+background: transparent !important;
+margin-bottom: 40px !important;
+
+height: 60px;
+margin-left: 0px ;
+} 
+.about-section .contact{
+  margin-left: -9.23em;
+  margin-top: 1.5em;
+}
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: -2em !important;
+}
+.body-text-dark{
+  font-size: 1.1em !important;
+width: 100% !important;
+}
+.button-container {
+  margin-bottom: 0px;
+}
+.button-container a {
+  text-decoration: none;
+  font-weight: 500 !important;
+  letter-spacing: -.5px !important;
+  color: #fff;
+  font-family: "Poppins", system-ui !important;
+  font-size: 1.531em;
+  background: #64B5B9;
+  padding: 10px 60px;
+  border-radius: 0px;
+  white-space: nowrap;
+  display: inline-block;
+} 
+.services-section{
+  margin-top: -2.7em;
+}
+.services-section-sub-header{
+  font-family: "Poppins", system-ui !important;
+  text-transform: uppercase ;
+  font-weight: 0em !important;
+  margin-bottom: .5em;
+  font-weight: 600 !important;
+  font-size: 1.44em !important;
+  color: #64B5B9 !important;
+}
+.services-section-header{
+  font-family: "Poppins", system-ui !important;
+  text-transform: uppercase ;
+  font-weight: 600 !important;
+  margin-left: 0em ;
+  font-size: 3em !important;
+  margin-bottom: .75em !important;
+  color: #000000 !important;
+} 
+.desktop-none{
+  display: none !important;
+}
+.mobile-display-none{
+  display: block !important;
+}
+.underline-image-services-section {
+  position: relative;
+  display: inline-block;
+}
+
+
+.underline-image-services-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px !important; /* Adjust this value to position the underline correctly */
+  height: 20px; /* Adjust this value based on the height of your underline image */
+  background-image: url('../img/underline-purple.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.service-item {
+  position: relative;
+  border-radius: 0px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+
+  overflow: hidden;
+  margin-right: 2px; /* Increase the horizontal gap */
+  min-height:455px;
+  max-width: 450px; /* Adjust width as needed */
+  margin-bottom: 2px;
+  padding-bottom: 100%; /* 5:4 ratio */
+  transition: transform 0.3s;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+.service-description{
+  padding: 0em 2em ;
+  font-size: 1.05em;
+  }
+  .service-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Poppins", system-ui !important;
+    font-size: 1.5em;
+  }
+  .service-icon2{
+    width: 80px !important;
+    margin-bottom: 1.5em !important;
+  }
+  .service-icon1{
+    width: 70px !important;
+    margin-bottom: 1.5em !important;
   
+  }
+  .service-icon3{
+    width: 70px !important;
+    margin-bottom: 1.5em !important;
+  
+  }
+  .service-icon4{
+    width: 70px !important;
+    margin-bottom: 1.5em !important;
+  
+  }
+  .service-icon5{
+    width: 70px !important;
+    margin-bottom: 1.5em !important;
+  
+  }
+  .service-icon6{
+    width: 70px !important;
+    margin-bottom: 1.5em !important;
+  
+  }
+  .projects{
+    margin-bottom: 5em;
+    margin-top: 1.7em;
+  }
+  .reviews-section-header {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .reviews-section-header::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -22px; /* Adjust to position the image below the text */
+    width: 250px; /* Adjust to match the width of the underline image */
+    height: 24px; /* Adjust based on the height of the underline image */
+    background: url('../img/underline-purple.png') no-repeat center;
+    background-size: contain;
+  }
+  .facebook-five-star{
+    width: 11em !important;
+    margin-top: 1.3em !important;
+    margin-bottom: 1.5em;
+  }
+  section#testimonial {
+    margin-top: -7.9em !important;
+    margin-bottom: -5.8em;
+  }
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    white-space: wrap !important;
+    margin-right: 5.5em !important;
+  }
+  
+  .testimonial-content .user-info .user {
+    margin-right: 10px; /* Adjust space between image and text */
+  }
+  
+  .testimonial-content .user-info .user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3em;
+  }
+  
+  .testimonial-content .user-info .user-details h5,
+  .testimonial-content .user-info .user-details .star {
+    display: flex;
+    align-items: center;}
+    .review{
+      padding-right: 0.75em;
+    }
+    
+.user{
+width: 3em !important;
+margin-right: -.3em !important;
+margin-left: 2.5em;
+}
+.testimonial-swiper .font-type-i-semi{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-left: -1.4em !important;
+  font-style: normal;
+  font-size: 1.05em !important;
+}  
+.font-type-contact{
+  font-weight: 700;
+  font-size: 2.85em;
+  margin-top: .4em;
+  font-family: "Poppins", system-ui !important;
+text-transform: uppercase !important;  }  
+  /*** Appointment ***/
+  .appointment {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 8em !important;
+  }
+  .appointment p{
+    font-size: 1.051em;
+  }
+  .btn-colour-contact-section{
+    background-color: #65B4B9;
+    color: #fff;
+    font-family: "Poppins", system-ui !important;
+text-transform: uppercase !important;
+font-weight: 600 !important;
+font-size: 1.4em;
+height: 55px;
+  }
+  .page-header {
+    height: 250px !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/page-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+
+  .font-type-page-header{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .3em;
+  }
+  .breadcrumb{
+    text-align: center !important;
+  margin-left: 40.78% !important;
+  }
+  .about-img{
+    background-image: url(../img/about-1.jpg );
+    background-size: cover;
+  background-position: top;
+  height: 640px !important;
+  }/* Center the entire section */
+.about-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.container.about-page-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  .about-page-page{
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .font-future-about-page{
+    font-weight: 600 !important;
+    font-size: 2.58em !important;
+    width: 100% !important;
+    line-height: 1.2 !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  }
+  .about-page-link{
+    font-size: 27px !important;
+    font-weight: 600 !important;
+    color: #182333;
+    font-family: 'Poppins', sans-serif;
+
+    text-decoration: underline;
+  }
+  .about-page-link:hover{
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    color: #182333;
+    text-decoration: underline;
+  }
+  .about-page-header{
+    font-weight: 600 !important;
+    font-size: 1.44em ;
+    margin-bottom: .4em ;
+    margin-top: .1em;
+    color: #63B4B8;
+    line-height: 1.2 ;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  }
 }
 
 
