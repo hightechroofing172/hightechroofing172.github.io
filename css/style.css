@@ -1466,12 +1466,12 @@ width: 9em;
 
   /* Define the background color when a dropdown item is clicked */
   .dropdown-item{
-    color: #cdcdcd;
+    color: #fff;
     /* You can change this color to the desired color */
   }
   /* Define the background color when a dropdown item is clicked */
   .dropdown-item:active {
-    background-color: #FF8E48; /* New background color when clicked (green in this example) */
+    background-color: #fff; /* New background color when clicked (green in this example) */
     /* You can change this color to the desired color */
   }
   .footer-link{
@@ -2911,7 +2911,7 @@ margin-left: 43.25% ;
   .project-area .nav-tabs .nav-link,.about-area .nav-tabs .nav-link,.contact-section .nav-tabs .nav-link{border:0;border-bottom:0px solid transparent;padding:10px 20px; font-size: 1.32em ; font-weight: 600 !important; text-transform: uppercase !important;}@media only screen and (min-width: 992px) and (max-width: 1200px){.project-area .nav-tabs .nav-link,.about-area .nav-tabs .nav-link,.contact-section .nav-tabs .nav-link{padding:10px 10px}}@media only screen and (min-width: 768px) and (max-width: 991px){.project-area .nav-tabs .nav-link,.about-area .nav-tabs .nav-link,.contact-section .nav-tabs .nav-link{padding:10px 15px}}@media only screen and (min-width: 576px) and (max-width: 767px){.project-area .nav-tabs .nav-link,.about-area .nav-tabs .nav-link,.contact-section .nav-tabs .nav-link{padding:10px 15px}}@media (max-width: 575px){.project-area .nav-tabs .nav-link,.about-area .nav-tabs .nav-link,.contact-section .nav-tabs .nav-link{padding:10px 10px}}.project-area .nav-tabs .nav-item.show .nav-link,.project-area .nav-tabs .nav-link.active,.about-area .nav-tabs .nav-item.show .nav-link,.about-area .nav-tabs .nav-link.active,.contact-section .nav-tabs .nav-item.show .nav-link,.contact-section .nav-tabs .nav-link.active{color:#63B4B8;background:none}.project-area .nav-tabs .nav-item,.about-area .nav-tabs .nav-item,.contact-section .nav-tabs .nav-item{display:block;color:#161e46;font-weight:500;text-transform:capitalize;font-size:16px}.project-area .nav-tabs,.about-area .nav-tabs,.contact-section .nav-tabs{margin-bottom:9px;padding-bottom:0px;position:relative;border:0;display:flex;justify-content:center}@media only screen and (min-width: 768px) and (max-width: 991px){.project-area .nav-tabs,.about-area .nav-tabs,.contact-section .nav-tabs{justify-content:center; text-align: center;}}@media only screen and (min-width: 576px) and (max-width: 767px){.project-area .nav-tabs,.about-area .nav-tabs,.contact-section .nav-tabs{justify-content:center}}@media (max-width: 575px) {.project-area .nav-tabs,.about-area .nav-tabs,.contact-section .nav-tabs{justify-content:center}}.tab-pane{-webkit-transition:all .6s ease-out 0s;-moz-transition:all .6s ease-out 0s;-ms-transition:all .6s ease-out 0s;-o-transition:all .6s ease-out 0s;transition:all .6s ease-out 0s}.contact-with-area{padding-top:150px;padding-bottom:250px;background-size:cover;background-repeat:no-repeat}@media only screen and (min-width: 576px) and (max-width: 767px){.contact-with-area{padding-top:70px;padding-bottom:180px}}
   .project-heading{
     display: block !important;
-    margin: 4.15em auto 0em auto !important;
+    margin: 4.15em auto 0em auto ;
   }
   /* Center the navigation links */
   .project-area .nav-tabs {
@@ -3126,6 +3126,33 @@ margin-top: -.2em;
   text-transform: uppercase !important;
 }
 @media (min-width: 100px) and (max-width: 374px) {
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
+  .about-page-page{
+    padding-top: 0em;
+    margin-top: -2em !important;
+    padding-bottom: 1.5em;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
   .custom-text-area{
     height: 200px;
   }
@@ -3189,11 +3216,11 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 720px !important;
+  height: 690px !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 180px !important;
+  margin-top: 170px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -3232,19 +3259,19 @@ display: none !important;
   display: inline-block !important;
 white-space: nowrap;
   font-size: .9em !important;
-  margin-left: -3.655em !important;
+  margin-left: -3.955em !important;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
-margin-top: -1.4em !important;
+margin-top: -1.3em !important;
   text-decoration: none;
 }
 .phone-icon2 {
   transform: rotate(110deg);
   position: absolute;
-  font-size: .8em !important;
-margin-left: -26% !important;
-margin-top: -8% !important;
+  font-size: .7em !important;
+margin-left: -27% !important;
+margin-top: -7% !important;
 
 } 
 .left-mobile-none{
@@ -3252,16 +3279,16 @@ margin-top: -8% !important;
 
 } 
 .logo{
-  margin-left: -8.4em;
+  margin-left: -8.9em;
   width: 9.6em !important;
-  margin-top: -1.7em !important;
+  margin-top: -1.4em !important;
 }
 .navbar{
   height: 89px;
 }
   .logo-container{
     background-color: #63B4B8 ;
-    margin-top: 26px !important;
+    margin-top: 23px !important;
   }
     
   .carousel-bottom-shape {
@@ -3281,8 +3308,8 @@ margin-top: -8% !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem; /* Size of the outer circle */
-  height: 3.5rem; /* Size of the outer circle */
+  width: 3.15rem; /* Size of the outer circle */
+  height: 3.15rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
   margin-top: 36em;
@@ -3322,7 +3349,7 @@ text-transform: uppercase;
 height: 55px !important;
 white-space: nowrap;
 padding: .7em 0 .65em 2.8em !important;
-margin-top: .7em !important;
+margin-top: .5em !important;
 z-index: 4 !important;
 width: 90px !important;
 font-size: 1.2em !important;
@@ -3352,7 +3379,7 @@ margin-top: -11px !important;
 .about-header-container h5::before {
   content: "";
   position: absolute;
-  left: 160px !important;
+  left: 145px !important;
   top: 50%; /* Center the line vertically with the text */
   width: 22px; /* Length of the line */
   height: 3px; /* Thickness of the line */
@@ -3366,8 +3393,11 @@ margin-top: -11px !important;
   font-weight: 600 !important;
   margin-left: -.7em !important;
   margin-bottom: .4em;
-  font-size: 1.54em !important;
+  font-size: 1.34em !important;
   color: #414141 !important;
+}
+.about-page-option{
+  display: none !important;
 }
 .about-section-header{
   font-family: "Poppins", system-ui !important;
@@ -3376,7 +3406,7 @@ margin-top: -11px !important;
   margin-left: 0em !important;
   width: 100% !important; 
   
-  font-size: 2.65em !important;
+  font-size: 2.5em !important;
   color: #000000 !important;
 }  
 .about-section-content {
@@ -3443,7 +3473,7 @@ margin-top: -11px !important;
   background-position: center bottom;
 }
 .body-text-dark{
-  font-size: 1.1em !important;
+  font-size: 1.05em !important;
 
 }
 .contact img{
@@ -3453,10 +3483,13 @@ width: 60px;
 background: transparent !important;
 margin-bottom: 40px !important;
 height: 60px;
-margin-left: -26px !important;
+margin-left: -28px !important;
 } 
 .button-container {
   margin-bottom: 0px;
+}
+.contact div {
+  margin-left: 7px;
 }
 .button-container a {
   text-decoration: none;
@@ -3464,9 +3497,9 @@ margin-left: -26px !important;
   letter-spacing: -.5px !important;
   color: #fff;
   font-family: "Poppins", system-ui !important;
-  font-size: 1.531em;
+  font-size: 1.431em;
   background: #64B5B9;
-  padding: 12px 60px;
+  padding: 12px  60px;
   border-radius: 0px;
   white-space: nowrap;
   display: inline-block;
@@ -3914,7 +3947,7 @@ background: transparent !important;
 margin-bottom: 40px !important;
 
 height: 60px;
-margin-left: 20px ;
+margin-left: -30px !important ;
 } 
  .call-us-small{  
   font-family: "Poppins", system-ui !important;
@@ -3925,7 +3958,7 @@ margin-left: 20px ;
 }
 
 .about-section-phone-number{
-  font-size: 2.31em;
+  font-size: 2.2em;
   transform: skewX(0deg) !important;
   letter-spacing: -.3px !important;
 font-weight: 600 !important;
@@ -3940,7 +3973,7 @@ margin-top: -30px !important;
   padding-left: 1.4rem !important;
 }
 .page-header {
-  height: 260px;
+  height: 240px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -3990,7 +4023,7 @@ margin-top: -30px !important;
   background-size: cover;
 }
 .service-page-header6 {
-  height: 340px !important;
+  height: 330px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -4082,7 +4115,7 @@ text-align: left !important;
   font-size: 3.3em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .4em;
+margin-top: .3em;
 line-height: 1.13;
 margin-left: -.1em;
 text-align: left !important;
@@ -4217,7 +4250,7 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   font-size: 1.6em !important;
   margin-bottom: .53em !important;
-  margin-top: 1em;
+  margin-top: .2em !important; 
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -4389,7 +4422,10 @@ white-space: nowrap !important;
 .py-15{
   padding: 1.45em 0.35em ;
 }
-
+.project-heading{
+  display: block !important;
+  margin: 3.35em auto 0em auto !important;
+}
 
 .services-image1{
   height: 330px !important;
@@ -4444,6 +4480,30 @@ white-space: nowrap !important;
 } 
 
 @media (min-width: 370px) and (max-width: 385px) {
+  .project-heading{
+    display: block !important;
+    margin: 3.35em auto 0em auto !important;
+  }
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.05em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
   .service-item:hover {
     transform: scale(1.015);
   }
@@ -4507,11 +4567,11 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 720px !important;
+  height: 695px !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 185px !important;
+  margin-top: 173px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -4549,20 +4609,20 @@ display: none !important;
   position: absolute;
   display: inline-block !important;
 white-space: nowrap;
-  font-size: .86em !important;
-  margin-left: -3em !important;
+  font-size: .90em !important;
+  margin-left: -3.2em !important;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
-margin-top: -1.46em !important;
+margin-top: -1.25em !important;
   text-decoration: none;
 }
 .phone-icon2 {
   transform: rotate(110deg);
   position: absolute;
-  font-size: .7em !important;
-margin-left: -20% !important;
-margin-top: -7.3% !important;
+  font-size: .73em !important;
+margin-left: -22.5% !important;
+margin-top: -6.9% !important;
 
 } 
 .left-mobile-none{
@@ -4570,9 +4630,9 @@ margin-top: -7.3% !important;
 
 } 
 .logo{
-  margin-left: -8.4em;
-  width: 10.25em !important;
-  margin-top: -1.7em !important;
+  margin-left: -9.3em;
+  width: 10em !important;
+  margin-top: -1.5em !important;
 }
 .navbar{
   height: 89px;
@@ -4599,11 +4659,11 @@ margin-top: -7.3% !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem; /* Size of the outer circle */
-  height: 3.5rem; /* Size of the outer circle */
+  width: 3.25rem; /* Size of the outer circle */
+  height: 3.25rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
-  margin-top: 37em;
+  margin-top: 35em;
   background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
   border: 2px solid white; /* White stroke */
   position: absolute;
@@ -4670,9 +4730,9 @@ margin-top: -11px !important;
 .about-header-container h5::before {
   content: "";
   position: absolute;
-  left: 160px !important;
+  left: 150px !important;
   top: 50%; /* Center the line vertically with the text */
-  width: 22px; /* Length of the line */
+  width: 20px; /* Length of the line */
   height: 3px; /* Thickness of the line */
   background-color: #480F4C; /* Solid black color */
   transform: translateY(-50%); /* Align the line with the middle of the text */
@@ -4684,7 +4744,7 @@ margin-top: -11px !important;
   font-weight: 600 !important;
   margin-left: -.7em !important;
   margin-bottom: .4em;
-  font-size: 1.54em !important;
+  font-size: 1.4em !important;
   color: #414141 !important;
 }
 .about-section-header{
@@ -4737,13 +4797,12 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
+  margin-top: -.0em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
 }
-.about-section-container .contact{
-margin-top: 1.5em;
-}
+
 .underline-image-about {
   position: relative;
   display: inline-block;
@@ -4860,7 +4919,7 @@ margin-left: -39px !important;
 }
 
 .services-section{
-  margin-top: -5em;
+  margin-top: -5.5em;
 }
 .underline-image-services-section {
   position: relative;
@@ -5221,6 +5280,8 @@ outline: none;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
   }
 .navbar-collapse{
   background: #000;
@@ -5253,14 +5314,17 @@ margin-top: -35px !important;
 
 }
 .about-section .contact{
-  margin-top: 2em !important;
-  margin-left: -1em;
+  margin-top: 1.5em !important;
+  margin-left: -.6em;
 }
 .px-amount{
   padding-left: 1.4rem !important;
 }
+.about-page-page{
+  margin-top: -1.5em;
+}
 .page-header {
-  height: 260px;
+  height: 240px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -5270,7 +5334,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header {
-  height: 260px !important;
+  height: 250px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -5280,7 +5344,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header2 {
-  height: 280px !important;
+  height: 260px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -5290,7 +5354,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header3 {
-  height: 325px !important;
+  height: 304px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -5300,7 +5364,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header5 {
-  height: 270px !important;
+  height: 250px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -5310,7 +5374,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header6 {
-  height: 340px !important;
+  height: 320px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -5349,10 +5413,10 @@ text-align: left !important;
 }
 .font-type-service-page-header-repairs{
   font-weight: 600 !important;
-  font-size: 3.63em !important;
+  font-size: 3.43em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .4em;
+margin-top: .3em;
 line-height: 1.1;
 margin-left: -.1em;
 text-align: left !important;
@@ -5761,15 +5825,61 @@ white-space: nowrap !important;
         font-style: normal !important;
         margin-bottom: 13px;
       }
+      .about-page-option{
+        display: none !important;
+      }
 } 
 @media (min-width: 386px) and (max-width: 410px) {
+  .blog .posts-list .post-title {
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.3s;
+    color: #182333;
+    font-weight: 700;
+    text-transform: none !important;
+    font-style: normal;
+    margin-bottom: 15px;
+  }
+  .project-heading{
+    display: block !important;
+    margin: 3.5em auto 0em auto !important;
+  }
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
 
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.07em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
+  .about-page-option{
+    display: none !important;
+  }
+  .about-page-page{
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: -1.5em !important;
+  }
   .service-item:hover {
     transform: scale(1.015);
   }
   .blog-title{
 
-    font-size: 1.85em;
+    font-size: 1.95em;
         color: #182333;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
@@ -5837,7 +5947,7 @@ text-transform: uppercase !important;
   border-left: white solid 2px;
   margin-top: 0em !important;
   right: 6% !important;
-  height: 525px !important;
+  height: 530px !important;
   margin-left: .3em !important;
 }
 .br-display2{
@@ -5851,7 +5961,7 @@ padding-left: 1em !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 185px !important;
+  margin-top: 178px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -5863,7 +5973,7 @@ padding-left: 1em !important;
 
 .magna{
   margin-top: .2em !important;
-  margin-left: 14em;
+  margin-left: 14.3em;
 }
 .left-content{
   margin-top: .75em;
@@ -5882,20 +5992,20 @@ display: none !important;
   position: absolute;
   display: inline-block !important;
 white-space: nowrap;
-  font-size: .93em !important;
-  margin-left: -2.65em !important;
+  font-size: .96em !important;
+  margin-left: -2.75em !important;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
-margin-top: -1.7em !important;
+margin-top: -1.45em !important;
   text-decoration: none;
 }
 .phone-icon2 {
   transform: rotate(110deg);
   position: absolute;
-  font-size: .7em !important;
-margin-left: -19.25% !important;
-margin-top: -9% !important;
+  font-size: .8em !important;
+margin-left: -20.5% !important;
+margin-top: -7.9% !important;
 
 } 
 .left-mobile-none{
@@ -5903,16 +6013,16 @@ margin-top: -9% !important;
 
 } 
 .logo{
-  margin-left: -8.8em;
-  width: 10.25em !important;
-  margin-top: -1.7em !important;
+  margin-left: -9.6em;
+  width: 10.15em !important;
+  margin-top: -1.5em !important;
 }
 .navbar{
   height: 89px;
 }
   .logo-container{
     background-color: #63B4B8 ;
-    margin-top: 34px !important;
+    margin-top: 28px !important;
   }
     
   .carousel-bottom-shape {
@@ -5970,13 +6080,13 @@ letter-spacing: .3px;
 font-weight: 600 !important;
 color: #fff;
 text-transform: uppercase;
-height: 55px !important;
+height: 52px !important;
 white-space: nowrap;
 padding: .7em 0 .65em 2.8em !important;
-margin-top: .5em !important;
+margin-top: 33.25em !important;
 z-index: 4 !important;
 width: 90px !important;
-font-size: 1.2em !important;
+font-size: 1.3em !important;
 clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%) !important;
 padding-right: 90px !important; /* Adjust the value as needed */
 }
@@ -5994,7 +6104,7 @@ margin-top: -11px !important;
 
 .carousel-buttons-box{
   display: block !important;
-  margin-top: 1.9em !important;
+  margin-top: 1.6em !important;
 
 }
 .space{
@@ -6003,7 +6113,7 @@ margin-top: -11px !important;
 .about-header-container h5::before {
   content: "";
   position: absolute;
-  left: 160px !important;
+  left: 155px !important;
   top: 50%; /* Center the line vertically with the text */
   width: 22px; /* Length of the line */
   height: 3px; /* Thickness of the line */
@@ -6017,7 +6127,7 @@ margin-top: -11px !important;
   font-weight: 600 !important;
   margin-left: -.7em !important;
   margin-bottom: .4em;
-  font-size: 1.54em !important;
+  font-size: 1.46em !important;
   color: #414141 !important;
 }
 .about-section-header{
@@ -6064,6 +6174,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
+  margin-top: -.15em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -6100,7 +6211,7 @@ width: 60px;
 background: transparent !important;
 margin-bottom: 40px !important;
 height: 60px;
-margin-left: -56px !important;
+margin-left: -48px !important;
 } 
 .button-container {
   margin-bottom: 0px;
@@ -6126,7 +6237,7 @@ margin-left: -56px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -3.75em !important;
+  margin-top: -4.7em !important;
   margin-bottom: 5em;
 }
 .reviews-section-header::after {
@@ -6190,7 +6301,7 @@ section#testimonial {
   color: #000000 !important;
 }  
 .services-section{
-  margin-top: -4em;
+  margin-top: -5em;
 }
 .underline-image-services-section {
   position: relative;
@@ -6410,8 +6521,8 @@ section#testimonial {
 }
  .font-type-contact{
     font-weight: 700;
-    margin-top: .21em;
-    font-size: 3.2em;
+    margin-top: .11em !important;
+    font-size: 2.9em !important;
     font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
 .custom-text-area{
@@ -6590,7 +6701,7 @@ margin-top: -35px !important;
   padding-left: 1.4rem !important;
 }
 .page-header {
-  height: 260px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -6610,7 +6721,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header2 {
-  height: 280px !important;
+  height: 260px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -6620,7 +6731,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header3 {
-  height: 325px !important;
+  height: 310px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -6640,7 +6751,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header6 {
-  height: 340px !important;
+  height: 320px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -6654,7 +6765,7 @@ margin-top: -35px !important;
   font-size: 4em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .34em;
+margin-top: .28em;
 margin-left: -.1em !important;
 text-align: left !important;
 }
@@ -6663,7 +6774,7 @@ text-align: left !important;
   font-size: 3.12em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .55em;
+margin-top: .3em;
 margin-left: -.1em;
 
 text-align: left !important;
@@ -6679,7 +6790,7 @@ text-align: left !important;
 }
 .font-type-service-page-header-repairs{
   font-weight: 600 !important;
-  font-size: 3.8em !important;
+  font-size: 3.4em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
 margin-top: .32em;
@@ -6702,7 +6813,7 @@ text-align: left !important;
   font-size: 3.4em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .4em;
+margin-top: .34em;
 line-height: 1.1;
 margin-left: -.1em;
 text-align: left !important;
@@ -6719,10 +6830,10 @@ text-align: left !important;
 }
 .font-type-service-page-header-mortar{
   font-weight: 600 !important;
-  font-size: 3.7em !important;
+  font-size: 3.4em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .45em !important  ;
+margin-top: .32em !important  ;
 line-height: 1.1;
 margin-left: -.1em;
 text-align: left !important;
@@ -6732,7 +6843,7 @@ text-align: left !important;
   font-size: 3.3em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .35em;
+margin-top: .32em;
 line-height: 1.13;
 margin-left: -.1em;
 text-align: left !important;
@@ -6834,9 +6945,9 @@ margin-left: -.1em !important ;
 }
 .font-future-about-page{
   font-weight: 600 !important;
-  font-size: 2.5em !important;
+  font-size: 2.75em !important;
   line-height: 1.1 !important;
-  margin-bottom: .35em;
+  margin-bottom: .3em;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
 }
@@ -6845,8 +6956,8 @@ text-transform: uppercase !important;
 .about-page-header{
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  margin-bottom: .453em !important;
-  margin-top: 1em;
+  margin-bottom: .3em !important;
+  margin-top: .8em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -6854,7 +6965,7 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.6em !important;
+  font-size: 1.44em !important;
   margin-bottom: .33em !important;
   margin-top: .8em;
   color: #63B4B8;
@@ -6918,7 +7029,7 @@ margin-bottom: 1em !important;
   color: #fff;
   border: 0 !important;
   font-weight: 500;
-  font-size: 1.05em !important;
+  font-size: 1.14em !important;
   text-transform: uppercase;
   border-radius: .21em;
 }
@@ -6933,7 +7044,7 @@ margin-bottom: 1em !important;
   background-color: #ffffff !important; /* White background for the card */
   border-radius: 10px; /* Slightly rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  padding: 10px 20px; /* Padding inside the card for content */
+  padding: 20px 20px; /* Padding inside the card for content */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
   margin: 20px auto; /* Center the card on the page */
   max-width: 400px; /* Set a max width for responsiveness */
@@ -6945,7 +7056,7 @@ margin-bottom: 1em !important;
   margin: 15px 0px !important;
 }
 .card-contact-page-size p{
-  font-size: 1.16em !important;
+  font-size: 1.24em !important;
 }
 
 /* Hover effect */
@@ -6955,7 +7066,7 @@ margin-bottom: 1em !important;
 }
 .contact-card-page-header{
   font-weight: 600 !important;
-  font-size: 1.52em !important;
+  font-size: 1.75em !important;
   margin-bottom: .53em !important;
   margin-top: 1em;
   color: #000;
@@ -7164,11 +7275,11 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 720px !important;
+  height: 710px !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 194px !important;
+  margin-top: 176px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -7249,11 +7360,11 @@ margin-top: -9% !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem; /* Size of the outer circle */
-  height: 3.5rem; /* Size of the outer circle */
+  width: 3.35rem; /* Size of the outer circle */
+  height: 3.35rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
-  margin-top: 37em;
+  margin-top: 36em;
   background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
   border: 2px solid white; /* White stroke */
   position: absolute;
@@ -11935,7 +12046,7 @@ outline: none;
     visibility: visible;
   }
 .navbar-collapse{
-  background: #000;
+  background-color: #151A42 !important; /* Purple background color */
   width: 100%;
 }  
 .contact img{
@@ -13611,7 +13722,25 @@ font-size: 1.12em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
-
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1070px) and (max-width: 1100px){
   
@@ -13876,7 +14005,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -14721,6 +14850,25 @@ font-size: 1.12em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1100px) and (max-width: 1170px){
   
@@ -14985,7 +15133,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -15831,6 +15979,25 @@ font-size: 1.17em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1170px) and (max-width: 1190px){
   
@@ -16104,7 +16271,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -16943,6 +17110,25 @@ font-size: 1.17em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.15em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1190px) and (max-width: 1270px){
   
@@ -17216,7 +17402,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -18055,6 +18241,25 @@ font-size: 1.17em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.15em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1270px) and (max-width: 1350px){
   
@@ -18333,7 +18538,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -19191,6 +19396,25 @@ font-size: 1.23em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.15em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1350px) and (max-width: 1400px){
   
@@ -19469,7 +19693,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -20327,6 +20551,25 @@ font-size: 1.23em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1400px) and (max-width: 1500px){
   
@@ -20605,7 +20848,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -21496,6 +21739,25 @@ font-size: 1.32em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1500px) and (max-width: 1599px){
   
@@ -21783,7 +22045,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -22685,6 +22947,25 @@ font-size: 1.32em !important;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.18em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 } 
 @media (min-width: 1599px) and (max-width: 1670px){
   
@@ -22972,7 +23253,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -23874,6 +24155,25 @@ margin-top: 0em;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1670px) and (max-width: 1700px){
   
@@ -24159,7 +24459,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -25065,6 +25365,25 @@ margin-top: 0em;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 }
 @media (min-width: 1700px) and (max-width: 1800px){
   
@@ -25350,7 +25669,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -26259,6 +26578,26 @@ margin-top: 0em;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
+    
 }
 @media (min-width: 1800px) and (max-width: 1900px){
   
@@ -26544,7 +26883,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -27456,7 +27795,26 @@ margin-top: 0em;
         font-weight: 700;;
         font-style: normal !important;
         margin-bottom: 8px;
+    } .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
     }
+      /* Define the background color when a dropdown item is clicked */
+      .dropdown-item{
+        color: #fff;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        /* You can change this color to the desired color */
+      }
+      /* Define the background color when a dropdown item is clicked */
+      .dropdown-item:active {
+        background-color: #fff; /* New background color when clicked (green in this example) */
+        /* You can change this color to the desired color */
+      }
 }
 @media (min-width: 1900px) and (max-width: 1915px){
   
@@ -27742,7 +28100,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
@@ -28656,10 +29014,49 @@ margin-top: 0em;
         font-style: normal !important;
         margin-bottom: 8px;
     }
+    .dropdown-menu.show {
+      display: block; /* Ensure it’s set to block when active */
+      visibility: visible;
+      background-color: #151A42 !important; /* Purple background color */
+  
+    }
+      /* Define the background color when a dropdown item is clicked */
+      .dropdown-item{
+        color: #fff;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        /* You can change this color to the desired color */
+      }
+      /* Define the background color when a dropdown item is clicked */
+      .dropdown-item:active {
+        background-color: #fff; /* New background color when clicked (green in this example) */
+        /* You can change this color to the desired color */
+      }
 }
 @media (min-width: 1915px) and (max-width: 2000px){
   
-  
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
   .sidebar-title {
     font-size: 29px !important;
  color: #182333;
@@ -28941,7 +29338,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
