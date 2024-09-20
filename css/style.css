@@ -1645,11 +1645,11 @@ font-family: "Poppins", system-ui !important;
   
   .navbar .navbar-nav .nav-link:hover,
   .navbar .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #fff !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff !important;
   }
   
   .navbar .dropdown-toggle::after {
@@ -13038,7 +13038,7 @@ font-family: "Poppins", system-ui !important;
   }
   .navbar .navbar-nav .nav-link2:hover,
   .navbar .navbar-nav .nav-link2.active {
-  color: #FF8E48;
+  color: #fff;
   }
   .btn-colour-nav {
     position: relative;
