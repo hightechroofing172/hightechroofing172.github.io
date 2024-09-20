@@ -358,6 +358,7 @@ text-transform: uppercase;
   .footer {
     background-color: #0c0b11;
       color: #999999;
+      overflow: hidden !important;
   }
 
   .footer .btn.btn-link {
