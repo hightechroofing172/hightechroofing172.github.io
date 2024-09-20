@@ -385,29 +385,22 @@ text-transform: uppercase;
       letter-spacing: 1px;
       box-shadow: none;
   }
+  .bg-navy123{
+    background: #0C0B11;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+
+  }
 
   .footer .copyright {
-      padding: 25px 0;
-      
+      padding: 0px 0px !important;
       font-size: 15px;
-      border-top: 1px solid rgba(256, 256, 256, .1);
   }
   .bg-nav{
     background-color: #0c0b11;
     border-top: 1px solid rgba(256, 256, 256, .1);
 
   }
-  .copyright-red{
-    color: #EB1C24;
-  }
-  .copyright-red:hover{
-    color: #BF1E2E;
-    transition: ease-in-out .2s;
-  }
-  .footer .copyright a {
-      color: #EB1C24;
-  }
-
+ 
   .footer .copyright a:hover {
       color: var(--primary);
   }
@@ -1483,6 +1476,12 @@ width: 9em;
     text-decoration: underline;
     transition: ease-in-out .2s;
   }
+  .copyright-link{
+    color: #96E0E3;
+  }
+  .copyright-link:hover{
+    color: #96E0E3;
+  }
   .footer-list{
 
   list-style-type: none;
@@ -1978,6 +1977,13 @@ padding-left: 2em !important;
   margin-left: 1.74em ;
     font-weight: 500 !important;
 }
+  .btn-carousel:hover {
+   color: #fff !important;
+}
+  .btn-carousel2:hover {
+    color: #fff !important;
+
+}
 .arrow-icon {
   height: auto;
   width: 55px ;
@@ -2173,6 +2179,10 @@ font-family: "Montserrat", sans-serif;
     font-family: "Poppins", system-ui !important;
 
     font-size: .7em !important;
+  }
+  .text-dark-blue:hover{
+    color: #000 !important;
+
   }
 
   .contact div {
@@ -2629,6 +2639,10 @@ font-size: 1.1em;
   color: #fff;
   text-decoration: underline;
   font-weight: 400 !important;
+}
+.read-more:hover{
+  color: #fff !important;
+
 }
 .arrow-services{
   width: 15px !important;
@@ -3788,7 +3802,7 @@ margin-left: -28px !important;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1120px;
-  margin-bottom: 8em !important;
+  margin-bottom: 4.5em !important;
   margin-top: -3.2em !important;
 }
 .appointment p{
@@ -5131,7 +5145,7 @@ margin-left: -39px !important;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1100px;
-  margin-bottom: 8em !important;
+  margin-bottom: 5em !important;
   margin-top: -3.2em !important;
 }
 .custom-text-area{
@@ -6513,7 +6527,7 @@ section#testimonial {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1150px;
-  margin-bottom: 8em !important;
+  margin-bottom: 5em !important;
   margin-top: -2.2em !important;
 }
 .appointment p{
@@ -7204,6 +7218,33 @@ white-space: nowrap !important;
   }
 } 
 @media (min-width: 410px) and (max-width: 425px) {
+  .project-heading{
+    display: block !important;
+    margin: 3.5em auto 0em auto !important;
+  }
+  .about-page-option{
+    display: none !important;
+  }
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.07em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
   .logo-container{
     background-color: #63B4B8 ;
   }
@@ -7707,7 +7748,7 @@ section#testimonial {
   }
   .service-icon6{
     width: 80px !important;
-    margin-bottom: 1.25em !important;
+    margin-bottom: 1.75em !important;
   
   }
   .read-more{
@@ -7832,7 +7873,7 @@ section#testimonial {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1150px;
-  margin-bottom: 8em !important;
+  margin-bottom: 6em !important;
   margin-top: -2.2em !important;
 }
 .appointment p{
@@ -8120,7 +8161,7 @@ text-align: left !important;
 }
 .font-type-service-page-header-rubber{
   font-weight: 600 !important;
-  font-size: 3.41em !important;
+  font-size: 3.31em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
 margin-top: .4em;
@@ -8326,7 +8367,7 @@ padding: 0em .4em;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -20px; /* Adjust this value to position the underline correctly */
+  bottom: -17px; /* Adjust this value to position the underline correctly */
   height: 10px; /* Increase the height for a bigger underline */
   background-image: url('../img/underline-purple.png');
   background-size: 100% 100%; /* Ensure the image scales to fit the element */
@@ -8605,11 +8646,11 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 750px !important;
+  height: 740px !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 189px !important;
+  margin-top: 186px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -8621,7 +8662,7 @@ padding-left: 1em !important;
 
 .magna{
   margin-top: .2em !important;
-  margin-left: 14.95em;
+  margin-left: 15.95em;
 }
 .left-content{
   margin-top: .75em;
@@ -8662,7 +8703,7 @@ margin-top: -8.4% !important;
 } 
 .logo{
   margin-left: -10.5em;
-  width: 10.5em !important;
+  width: 10.25em !important;
   margin-top: -1.7em !important;
 }
 .navbar{
@@ -8690,11 +8731,11 @@ margin-top: -8.4% !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem; /* Size of the outer circle */
-  height: 3.5rem; /* Size of the outer circle */
+  width: 3.35rem; /* Size of the outer circle */
+  height: 3.35rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
-  margin-top: 38.4em;
+  margin-top: 37.94em;
   background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
   border: 2px solid white; /* White stroke */
   position: absolute;
@@ -8783,7 +8824,7 @@ margin-top: -11px !important;
   margin-left: 0em !important;
   width: 100% !important; 
   
-  font-size: 2.85em !important;
+  font-size: 2.895em !important;
   color: #000000 !important;
 }  
 .about-section-content {
@@ -8856,7 +8897,7 @@ width: 60px;
 background: transparent !important;
 margin-bottom: 40px !important;
 height: 60px;
-margin-left: -97px !important;
+margin-left: -90px !important;
 } 
 .button-container {
   margin-bottom: 0px;
@@ -8869,7 +8910,7 @@ margin-left: -97px !important;
   font-family: "Poppins", system-ui !important;
   font-size: 1.531em;
   background: #64B5B9;
-  padding: 12px 60px 9px 60px;
+  padding: 13px 60px 10px 60px;
   border-radius: 0px;
   white-space: nowrap;
   display: inline-block;
@@ -8882,7 +8923,7 @@ margin-left: -97px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -3.75em !important;
+  margin-top: -4.5em !important;
   margin-bottom: 5em;
 }
 .reviews-section-header::after {
@@ -8918,7 +8959,7 @@ section#testimonial {
   text-transform: uppercase ;
   font-weight: 600 !important;
 
-  font-size: 3.1em !important;
+  font-size: 2.9em !important;
   margin-bottom: .75em !important;
   color: #000000 !important;
 }  
@@ -8932,7 +8973,7 @@ section#testimonial {
   font-weight: 0em !important;
   margin-bottom: .5em;
   font-weight: 600 !important;
-  font-size: 1.75em !important;
+  font-size: 1.65em !important;
   color: #64B5B9 !important;
 }
 .services-section-header{
@@ -8941,12 +8982,12 @@ section#testimonial {
   font-weight: 600 !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  font-size: 3.1em !important;
-  margin-bottom: .75em !important;
+  font-size: 2.95em !important;
+  margin-bottom: .8em !important;
   color: #000000 !important;
 }  
 .services-section{
-  margin-top: -4em;
+  margin-top: -4.5em;
 }
 .underline-image-services-section {
   position: relative;
@@ -8960,7 +9001,7 @@ section#testimonial {
   left: 0;
   right: 0;
   bottom: -10px !important; /* Adjust this value to position the underline correctly */
-  height: 24px !important; /* Adjust this value based on the height of your underline image */
+  height: 28px !important; /* Adjust this value based on the height of your underline image */
   background-image: url('../img/underline-purple.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -8979,11 +9020,12 @@ section#testimonial {
   position: relative;
   border-radius: 0px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  min-width: 100%;
+  min-width: 95%;
+  margin-left: auto !important;
   overflow: hidden;
-  margin-right: 0px !important  ; /* Increase the horizontal gap */
+  margin-right: auto !important  ; /* Increase the horizontal gap */
   min-height: 455px;
-  max-width: 450px !important; /* Adjust width as needed */
+  max-width: 300px !important; /* Adjust width as needed */
   margin-bottom: -10px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
@@ -9037,7 +9079,7 @@ section#testimonial {
   }
   .service-icon6{
     width: 80px !important;
-    margin-bottom: 1.25em !important;
+    margin-bottom: 1.7em !important;
   
   }
   .read-more{
@@ -9064,7 +9106,7 @@ section#testimonial {
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1em !important;
+    margin-top: 1.75em !important;
   }
   .project-item {
     position: relative;
@@ -9162,7 +9204,7 @@ section#testimonial {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1150px;
-  margin-bottom: 8em !important;
+  margin-bottom: 6em !important;
   margin-top: -2.2em !important;
 }
 .appointment p{
@@ -9171,7 +9213,7 @@ section#testimonial {
  .font-type-contact{
     font-weight: 700;
     margin-top: .31em;
-    font-size: 3.2em;
+    font-size: 3em;
     font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
 .custom-text-area{
@@ -9186,8 +9228,8 @@ text-transform: uppercase !important;  }
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;
 font-weight: 500 !important;
-padding: .4em ;
-font-size: 1.4em !important;
+padding: .5em ;
+font-size: 1.5em !important;
 }
 .py-13{
   padding-top: 1em;
@@ -9349,8 +9391,34 @@ margin-top: -35px !important;
 .px-amount{
   padding-left: 1.4rem !important;
 }
+.about-page-option{
+  display: none !important;
+}
+.dropdown-menu.show {
+  display: block; /* Ensure it’s set to block when active */
+  visibility: visible;
+  background-color: #151A42 !important; /* Purple background color */
+
+}
+  /* Define the background color when a dropdown item is clicked */
+  .dropdown-item{
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.07em;
+    text-transform: uppercase;
+    /* You can change this color to the desired color */
+  }
+  /* Define the background color when a dropdown item is clicked */
+  .dropdown-item:active {
+    background-color: #fff; /* New background color when clicked (green in this example) */
+    /* You can change this color to the desired color */
+  }
+  .about-page-page{
+    margin-top: -1.5em !important;
+  }
 .page-header {
-  height: 280px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -9401,7 +9469,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header6 {
-  height: 340px !important;
+  height: 330px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -9415,7 +9483,7 @@ margin-top: -35px !important;
   font-size: 4.3em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .34em;
+margin-top: .3em;
 margin-left: -.1em !important;
 text-align: left !important;
 }
@@ -9594,7 +9662,7 @@ margin-left: -.1em !important ;
 }
 .font-future-about-page{
   font-weight: 600 !important;
-  font-size: 2.5em !important;
+  font-size: 2.7em !important;
   line-height: 1.1 !important;
   margin-bottom: .35em;
   font-family: "Poppins", system-ui !important;
@@ -9614,9 +9682,9 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.6em !important;
+  font-size: 1.5em !important;
   margin-bottom: .33em !important;
-  margin-top: .8em;
+  margin-top: .85em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -9680,7 +9748,7 @@ padding: 0em .4em;
   color: #fff;
   border: 0 !important;
   font-weight: 500;
-  font-size: 1.15em !important;
+  font-size: 1.25em !important;
   text-transform: uppercase;
   border-radius: .21em;
 }
@@ -9695,7 +9763,7 @@ padding: 0em .4em;
   background-color: #ffffff !important; /* White background for the card */
   border-radius: 10px; /* Slightly rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  padding: 10px 20px; /* Padding inside the card for content */
+  padding: 20px 20px; /* Padding inside the card for content */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
   margin: 20px auto; /* Center the card on the page */
   max-width: 400px; /* Set a max width for responsiveness */
@@ -9717,7 +9785,7 @@ padding: 0em .4em;
 }
 .contact-card-page-header{
   font-weight: 600 !important;
-  font-size: 1.6em !important;
+  font-size: 1.76em !important;
   margin-bottom: .53em !important;
   margin-top: 1em;
   color: #000;
@@ -9770,7 +9838,7 @@ padding: .5em 0em;
 .contact-us-page-header{
   font-family: 'Poppins', sans-serif !important;
   text-transform: uppercase !important;
-  font-size: 3.44em;
+  font-size: 3.4em;
   line-height: 1.23;
 }
 .message-us{
@@ -9876,6 +9944,10 @@ font-size: 2em;
   
 } 
 @media (min-width: 600px) and (max-width: 800px) {
+  .project-heading{
+    display: block !important;
+    margin: 3.5em auto 0em auto !important;
+  }
   .logo-container{
     background-color: #63B4B8 ;
   }
@@ -9995,15 +10067,15 @@ white-space: nowrap;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
-margin-top: -1.6em !important;
+margin-top: -1.55em !important;
   text-decoration: none;
 }
 .phone-icon2 {
   transform: rotate(110deg);
   position: absolute;
   font-size: .93em !important;
-margin-left: 33% !important;
-margin-top: -4.9% !important;
+margin-left: 34% !important;
+margin-top: -4.5% !important;
 
 } 
 .left-mobile-none{
@@ -10137,7 +10209,7 @@ overflow: visible !important;}
 }  
 .about-section-content {
   padding-top: 0em !important; 
-  margin-top: -5.5em !important; 
+  margin-top: -5.8em !important; 
   }
 
 /* Container for the images */
@@ -10231,8 +10303,8 @@ margin-left: -401px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -3.25em !important;
-  margin-bottom: -2em;
+  margin-top: -4.75em !important;
+  margin-bottom: 3em;
 }
 .reviews-section-header::after {
   content: "";
@@ -10283,7 +10355,7 @@ section#testimonial {
   font-weight: 0em !important;
   margin-bottom: .5em;
   font-weight: 600 !important;
-  font-size: 1.75em !important;
+  font-size: 1.6em !important;
   color: #64B5B9 !important;
 }
 .services-section-header{
@@ -10414,7 +10486,7 @@ section#testimonial {
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 3em !important;
+    margin-top: 1.75em !important;
   }
   .project-item {
     position: relative;
@@ -10506,13 +10578,13 @@ section#testimonial {
 }
 .swiper-pagination {
   position: absolute;
-  margin-bottom: 5px !important ; /* Adjust the distance from the bottom as needed */
+  margin-bottom: -75px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 500px;
-  margin-bottom: 8em !important;
+  margin-bottom: 4em !important;
   margin-top: -2.2em !important;
 }
 .appointment p{
@@ -10653,15 +10725,26 @@ outline: none;
   top: 0 !important;
   right: 0px !important;
   }  
-  .dropdown-menu {
-    display: none; /* Ensure this is overridden by Bootstrap's JS */
-    visibility: hidden; /* Should be visible when dropdown is active */
-  }
-  
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+  
   }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.07em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 .navbar-collapse{
   background: #000;
   width: 100%;
@@ -10709,6 +10792,9 @@ margin-top: -35px !important;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/page-header.jpg) center center no-repeat;
   background-size: cover;
 }
+.font-type-service-page-header-chimney, .ridge-line-work{
+  font-size: 1.17em !important;
+}
 .service-page-header {
   height: 280px !important;
   display: flex;
@@ -10751,7 +10837,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header6 {
-  height: 340px !important;
+  height: 290px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -10839,7 +10925,7 @@ text-align: left !important;
 }
 .font-type-service-page-header-gutter{
   font-weight: 600 !important;
-  font-size: 4.5em !important;
+  font-size: 4em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
 margin-top: .35em;
@@ -10962,7 +11048,7 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.6em !important;
+  font-size: 1.5em !important;
   margin-bottom: .33em !important;
   margin-top: .8em;
   color: #63B4B8;
@@ -11004,7 +11090,7 @@ padding: 0em .4em;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -20px; /* Adjust this value to position the underline correctly */
+  bottom: -17px; /* Adjust this value to position the underline correctly */
   height: 10px; /* Increase the height for a bigger underline */
   background-image: url('../img/underline-purple.png');
   background-size: 100% 100%; /* Ensure the image scales to fit the element */
@@ -11138,6 +11224,7 @@ color: #8D9297;
 }
 .contact-linkss{
   margin-top: 2em !important;
+  display: flex !important;
 }
 .contact-paragraph-page-text{
 font-size: 1.12em !important;
@@ -11182,13 +11269,13 @@ white-space: nowrap !important;
   .service-page-sub-head2{
     margin-top: .8em !important;
     margin-bottom: .14em !important;
-    font-size: 1.7em !important;
+    font-size: 1.9em !important;
   }
 
   .service-page-sub-head{
     margin-top: .8em !important;
     margin-bottom: .19em !important;
-    font-size: 2.2em;
+    font-size: 1.6em;
   }
   .service-text{
     margin-left: 0 !important;
@@ -11251,6 +11338,29 @@ font-size: 2.3em;
     }
 } 
 @media (min-width: 800px) and (max-width: 990px) {
+  .font-type-service-page-header-chimney, .ridge-line-work{
+    font-size: 1.16em !important;
+  }
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+  
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.07em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
   .about-page-page-page-container{
     width: 95%;
     margin: 0 2.5% !;
@@ -11350,7 +11460,7 @@ padding-left: 1em !important;
 
 .magna{
   margin-top: .2em !important;
-  margin-left: 31.95em;
+  margin-left: 33.6em;
 }
 .left-content{
   margin-top: .75em;
@@ -11374,15 +11484,15 @@ white-space: nowrap;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
-margin-top: -1.5em !important;
+margin-top: -1.4em !important;
   text-decoration: none;
 }
 .phone-icon2 {
   transform: rotate(110deg);
   position: absolute;
-  font-size: .93em !important;
-margin-left: 37% !important;
-margin-top: -4.39% !important;
+  font-size: .8em !important;
+margin-left: 38% !important;
+margin-top: -4.09% !important;
 
 } 
 .left-mobile-none{
@@ -11516,7 +11626,7 @@ overflow: visible !important;}
 }  
 .about-section-content {
   padding-top: 0em !important; 
-  margin-top: -5.5em !important; 
+  margin-top: -5.95em !important; 
   }
 
 /* Container for the images */
@@ -11547,7 +11657,7 @@ overflow: visible !important;}
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 3em !important;
+  margin-top: .85em !important;
   gap: 10px !important;
   width: 100% !important;
 }
@@ -11614,8 +11724,8 @@ margin-left: -401px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -3.25em !important;
-  margin-bottom: -3em;
+  margin-top: -3.15em !important;
+  margin-bottom: 4em;
 }
 .reviews-section-header::after {
   content: "";
@@ -11666,7 +11776,7 @@ section#testimonial {
   font-weight: 0em !important;
   margin-bottom: .5em;
   font-weight: 600 !important;
-  font-size: 1.75em !important;
+  font-size: 1.6em !important;
   color: #64B5B9 !important;
 }
 .services-section-header{
@@ -11681,7 +11791,7 @@ section#testimonial {
   color: #000000 !important;
 }  
 .services-section{
-  margin-top: -1em;
+  margin-top: -3.75em;
 }
 .underline-image-services-section {
   position: relative;
@@ -11797,7 +11907,7 @@ section#testimonial {
   }
   .projects{
     margin-bottom: 4em;
-    margin-top: 2.5em !important;
+    margin-top: 1.95em !important;
   }
   .project-item {
     position: relative;
@@ -11861,7 +11971,7 @@ section#testimonial {
       justify-content: center;
       flex-wrap: nowrap;
       white-space: nowrap !important;
-      margin-right: 4.5em !important;
+      margin-right: 1.5em !important;
     }
     
     .testimonial-content .user-info .user {
@@ -11889,13 +11999,13 @@ section#testimonial {
 }
 .swiper-pagination {
   position: absolute;
-  margin-bottom: 5px !important ; /* Adjust the distance from the bottom as needed */
+  margin-bottom: -85px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 500px;
-  margin-bottom: 8em !important;
+  margin-bottom: 5em !important;
   margin-top: -2.2em !important;
 }
 .appointment p{
@@ -12134,7 +12244,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header6 {
-  height: 340px !important;
+  height: 320px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -12345,7 +12455,7 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.6em !important;
+  font-size: 1.5em !important;
   margin-bottom: .33em !important;
   margin-top: .8em;
   color: #63B4B8;
@@ -12387,7 +12497,7 @@ padding: 0em .4em;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -20px; /* Adjust this value to position the underline correctly */
+  bottom: -18px; /* Adjust this value to position the underline correctly */
   height: 10px; /* Increase the height for a bigger underline */
   background-image: url('../img/underline-purple.png');
   background-size: 100% 100%; /* Ensure the image scales to fit the element */
@@ -12438,7 +12548,7 @@ padding: 0em .4em;
   margin: 15px 0px !important;
 }
 .card-contact-page-size p{
-  font-size: 1.4em !important;
+  font-size: 1.3em !important;
 }
 
 /* Hover effect */
@@ -12589,7 +12699,7 @@ white-space: nowrap !important;
     font-weight: 700;
     margin-left: -1.2em !important;
     font-style: normal;
-    font-size: 1.25em !important;
+    font-size: 1.14em !important;
   }  
   iconify-icon.rate {
     color: #F2B821;
@@ -12634,7 +12744,36 @@ font-size: 2.3em;
     }
 } 
 @media (min-width: 991px) and (max-width: 1070px){
-  
+  .ipad-display-visible{
+    display: block !important;
+  }  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
+
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
+  .service-content {
+    position: absolute;
+    top: 49.8%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+    z-index: 2;
+    padding: 0px;
+    max-width: 100%; /* Adjust max-width as needed */
+    margin: auto; /* Center horizontally */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  .about-section-content {
+    padding-top: 0em !important; 
+    margin-top: 7em !important; 
+    }
   .circle-around-icon {
     display: flex;
     align-items: center;
@@ -12661,7 +12800,7 @@ font-size: 2.3em;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 620px !important;
+  height: 590px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -12748,6 +12887,7 @@ text-transform: uppercase !important;
   background-position: center bottom;
 }
 
+
 .carousel-bottom-shape {
   position: absolute;
   bottom: 0;
@@ -12757,10 +12897,11 @@ text-transform: uppercase !important;
   height: 0;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
-  border-bottom: 100px solid white;
+  border-bottom: 70px solid white;
   z-index: 1;
   overflow-x: hidden !important;
-  } .border-left{
+}
+.border-left{
     border-left: white solid 2px;
     margin-top: 0em !important;
     right: 6% !important;
@@ -12872,7 +13013,7 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 160px !important ;
+    margin-left: 156px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
@@ -13102,7 +13243,7 @@ width: 100% !important;
   display: inline-block;
 } 
 .services-section{
-  margin-top: -2.7em;
+  margin-top: -3em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -13203,8 +13344,8 @@ width: 100% !important;
   
   }
   .projects{
-    margin-bottom: 5em;
-    margin-top: 1.7em;
+    margin-bottom: 4em;
+    margin-top: 1.3em;
   }
   .reviews-section-header {
     position: relative;
@@ -13229,8 +13370,8 @@ width: 100% !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -7.9em !important;
-    margin-bottom: -5.8em;
+    margin-top: -8.3em !important;
+    margin-bottom: -6.9em;
   }
   .testimonial-content .user-info {
     display: flex;
@@ -13249,7 +13390,9 @@ width: 100% !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 3em;
+    margin-left: 2.5em;
+  }.star{
+    font-size: 14px;
   }
   
   .testimonial-content .user-info .user-details h5,
@@ -13270,7 +13413,7 @@ margin-left: 2.5em;
   font-weight: 700;
   margin-left: -1.4em !important;
   font-style: normal;
-  font-size: 1.05em !important;
+  font-size: .95em !important;
 }  
 .font-type-contact{
   font-weight: 700;
@@ -13282,11 +13425,11 @@ text-transform: uppercase !important;  }
   .appointment {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
-    height: 460px;
-    margin-bottom: 8em !important;
+    height: 470px;
+    margin-bottom: 4em !important;
   }
   .appointment p{
-    font-size: 1.01em;
+    font-size: 1.06em;
   }
   .custom-text-area{
     height: 155px;
@@ -13519,14 +13662,14 @@ height: 55px;
   }
   .service-header-h1{
     text-transform: uppercase !important;
-    font-size: 2.7em !important;
+    font-size: 2.4em !important;
     margin-top: .5em;
   }
   .about-img{
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 650px !important;
+  height: 660px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -13603,7 +13746,7 @@ height: 55px;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -17px; /* Adjust this value to position the underline correctly */
+    bottom: -20px; /* Adjust this value to position the underline correctly */
     height: 10px; /* Increase the height for a bigger underline */
     background-image: url('../img/underline-purple.png');
     background-size: 100% 100%; /* Ensure the image scales to fit the element */
@@ -13620,7 +13763,7 @@ height: 55px;
   }
   .projects-page-sub-header{
     font-weight: 600 !important;
-    font-size: 1.72em !important;
+    font-size: 1.6em !important;
     margin-bottom: .43em !important;
     margin-top: 1em;
     color: #63B4B8;
@@ -13743,13 +13886,36 @@ font-size: 1.12em !important;
     }
 }
 @media (min-width: 1070px) and (max-width: 1100px){
-  
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 24px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 11px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
+
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
   .circle-around-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.5rem; /* Size of the outer circle */
-    height: 3.5rem; /* Size of the outer circle */
+    width: 3.35rem; /* Size of the outer circle */
+    height: 3.35rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -13770,7 +13936,7 @@ font-size: 1.12em !important;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 620px !important;
+  height: 597px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -13806,11 +13972,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -23px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -23px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -13856,7 +14022,6 @@ text-transform: uppercase !important;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
-
 .carousel-bottom-shape {
   position: absolute;
   bottom: 0;
@@ -13866,10 +14031,10 @@ text-transform: uppercase !important;
   height: 0;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
-  border-bottom: 100px solid white;
+  border-bottom: 70px solid white;
   z-index: 1;
   overflow-x: hidden !important;
-  } .border-left{
+}.border-left{
     border-left: white solid 2px;
     margin-top: 0em !important;
     right: 6% !important;
@@ -14018,11 +14183,12 @@ font-family: "Poppins", system-ui !important;
     font-family: "Poppins", system-ui !important;
 align-items: center !important;
     text-transform: uppercase;
-    padding: .2em 1.57em;
-    margin-left: 7em !important;
+    padding: .26em 1.47em .2em 1.47em;
+    margin-left: 7.85em !important;
     margin-right: 2px !important ;
     border-radius: 5.21em;
-    font-size: 20px !important;
+    margin-top: 3px;
+    font-size: 19px !important;
     font-weight: 600 !important;
   }
   .call-us-button-phone{
@@ -14355,8 +14521,8 @@ margin-left: 5px;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.29em !important;
-    margin-bottom: -5.8em;
+    margin-top: -8.69em !important;
+    margin-bottom: -6.4em;
   }
   .testimonial-content .user-info {
     display: flex;
@@ -14398,6 +14564,11 @@ margin-left: 2.5em;
   font-style: normal;
   font-size: 1.05em !important;
 }  
+ .font-type-i-semi{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: .95em !important;
+}  
 .font-type-contact{
   font-weight: 700;
   font-size: 2.83em;
@@ -14409,7 +14580,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.1em;
@@ -14647,7 +14818,7 @@ height: 55px;
   }
   .service-header-h1{
     text-transform: uppercase !important;
-    font-size: 2.7em !important;
+    font-size: 2.5em !important;
     margin-top: .5em;
   }
   .about-img{
@@ -14731,7 +14902,7 @@ height: 55px;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -17px; /* Adjust this value to position the underline correctly */
+    bottom: -20px; /* Adjust this value to position the underline correctly */
     height: 10px; /* Increase the height for a bigger underline */
     background-image: url('../img/underline-purple.png');
     background-size: 100% 100%; /* Ensure the image scales to fit the element */
@@ -14748,8 +14919,8 @@ height: 55px;
   }
   .projects-page-sub-header{
     font-weight: 600 !important;
-    font-size: 1.72em !important;
-    margin-bottom: .43em !important;
+    font-size: 1.6em !important;
+    margin-bottom: .53em !important;
     margin-top: 1em;
     color: #63B4B8;
     line-height: 1.2 !important;
@@ -14869,15 +15040,46 @@ font-size: 1.12em !important;
       background-color: #fff; /* New background color when clicked (green in this example) */
       /* You can change this color to the desired color */
     }
+    .about-section-content {
+      padding-top: 0em !important; 
+      margin-top: 6em !important; 
+      }
 }
 @media (min-width: 1100px) and (max-width: 1170px){
-  
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 26px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .project-heading{
+    display: block !important;
+    margin: 3.15em auto 0em auto ;
+  }
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
+
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
   .circle-around-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.5rem; /* Size of the outer circle */
-    height: 3.5rem; /* Size of the outer circle */
+    width: 3.35rem; /* Size of the outer circle */
+    height: 3.35rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -14887,7 +15089,7 @@ font-size: 1.12em !important;
   }
   .text-container{
     width: 90%;
-    margin-top: 20px !important;
+    margin-top: 23px !important;
     }.carousel-caption {
       top: 3% !important;
       left: 4% !important;
@@ -15537,7 +15739,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.1em;
@@ -15671,7 +15873,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .2em;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -15690,7 +15892,7 @@ height: 55px;
     font-size: 4.3em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .35em;
+  margin-top: .29em;
   line-height: 1.13;
   margin-left: 0em !important;
   text-align: center !important;
@@ -16000,7 +16202,54 @@ font-size: 1.17em !important;
     }
 }
 @media (min-width: 1170px) and (max-width: 1190px){
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
+
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 30px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .underline-image-projects-section {
+    position: relative;
+    display: inline-block;
+  }
   
+  .mb-idea{
+    margin-bottom: .21em;
+  }
+  .underline-image-projects-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -23px !important; /* Adjust this value to position the underline correctly */
+    height: 15px !important; /* Adjust this value based on the height of your underline image */
+    background-image: url('../img/underline-purple.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .about-section-content {
+    padding-top: 0em !important; 
+    margin-top: 6.7em !important; 
+    }
   .circle-around-icon {
     display: flex;
     align-items: center;
@@ -16657,9 +16906,16 @@ margin-left: 2.5em;
   font-style: normal;
   font-size: 1.05em !important;
 }  
+
+.font-type-i-semi{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1em;
+}  
 .font-type-contact{
   font-weight: 700;
-  font-size: 2.84em;
+  font-size: 2.85em;
   margin-top: .45em;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
@@ -16668,7 +16924,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.1em;
@@ -16753,7 +17009,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .3em;
   margin-left: 0em;
   
   text-align: center !important;
@@ -16763,7 +17019,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .3em;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -16772,7 +17028,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .32em;
+  margin-top: .3em;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -16782,7 +17038,7 @@ height: 55px;
     font-size: 4.76em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .3em;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -16792,7 +17048,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .3em;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -16802,7 +17058,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .2em;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -16811,7 +17067,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .45em !important  ;
+  margin-top: .3em !important  ;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -16964,7 +17220,7 @@ height: 55px;
     font-weight: 600 !important;
     font-size: 1.6em ;
     margin-bottom: .4em ;
-    margin-top: .1em;
+    margin-top: 0em;
     color: #63B4B8;
     line-height: 1.2 ;
     font-family: "Poppins", system-ui !important;
@@ -17131,13 +17387,36 @@ font-size: 1.17em !important;
     }
 }
 @media (min-width: 1190px) and (max-width: 1270px){
-  
+  .ipad-display-visible{
+    display: block !important;
+  }
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
+
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 30px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
   .circle-around-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.5rem; /* Size of the outer circle */
-    height: 3.5rem; /* Size of the outer circle */
+    width: 3.35rem; /* Size of the outer circle */
+    height: 3.35rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -17194,11 +17473,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -28px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -28px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -17618,7 +17897,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -6.3em;
+  margin-top: -6em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -17745,7 +18024,7 @@ margin-left: 5px;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.49em !important;
+    margin-top: -8.69em !important;
     margin-bottom: -6.4em !important;
   }
   .testimonial-content .user-info {
@@ -17788,6 +18067,12 @@ margin-left: 2.5em;
   font-style: normal;
   font-size: 1.05em !important;
 }  
+.font-type-i-semi{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.05em !important;
+}  
 .font-type-contact{
   font-weight: 700;
   font-size: 2.85em;
@@ -17799,7 +18084,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.1em;
@@ -18093,7 +18378,7 @@ height: 55px;
   }
   .about-page-header{
     font-weight: 600 !important;
-    font-size: 1.6em ;
+    font-size: 1.5em ;
     margin-bottom: .4em ;
     margin-top: .1em;
     color: #63B4B8;
@@ -18262,7 +18547,31 @@ font-size: 1.17em !important;
     }
 }
 @media (min-width: 1270px) and (max-width: 1350px){
-  
+  .blog .sidebar .sidebar-title {
+    font-size: 27px !important;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
+
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
+  .about-section-content {
+    padding-top: 0em !important; 
+    margin-top: 6.83em !important; 
+    }
   
 
   
@@ -18270,8 +18579,8 @@ font-size: 1.17em !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.5rem; /* Size of the outer circle */
-    height: 3.5rem; /* Size of the outer circle */
+    width: 3.35rem; /* Size of the outer circle */
+    height: 3.35rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -18328,11 +18637,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -30px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -30px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -18934,6 +19243,12 @@ margin-left: 2.5em;
   font-style: normal;
   font-size: 1.05em !important;
 }  
+ .font-type-i-semi{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.07em !important;
+}  
 .font-type-contact{
   font-weight: 700;
   font-size: 3.4em;
@@ -18945,7 +19260,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5.5em !important;
   }
   .appointment p{
     font-size: 1.15em;
@@ -19245,7 +19560,7 @@ height: 55px;
   }
   .about-page-header{
     font-weight: 600 !important;
-    font-size: 1.66em ;
+    font-size: 1.6em ;
     margin-bottom: .4em ;
     margin-top: 1em !important;
     color: #63B4B8;
@@ -19418,8 +19733,27 @@ font-size: 1.23em !important;
 }
 @media (min-width: 1350px) and (max-width: 1400px){
   
-  
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.89em !important;
+  }
 
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 27px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
   
   .circle-around-icon {
     display: flex;
@@ -20100,7 +20434,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.15em;
@@ -20400,7 +20734,7 @@ height: 55px;
   }
   .about-page-header{
     font-weight: 600 !important;
-    font-size: 1.66em ;
+    font-size: 1.6em ;
     margin-bottom: .4em ;
     margin-top: 1em !important;
     color: #63B4B8;
@@ -20572,9 +20906,28 @@ font-size: 1.23em !important;
     }
 }
 @media (min-width: 1400px) and (max-width: 1500px){
+  .blog .sidebar .sidebar-title {
+    font-size: 30px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
   
-  
+  .service-page-sub-head2{
+    margin-top: .8em !important;
+    margin-bottom: .14em !important;
+    font-size: 1.95em !important;
+  }
 
+  .service-page-sub-head{
+    margin-top: .8em !important;
+    margin-bottom: .19em !important;
+    font-size: 1.6em;
+  }
   
   .circle-around-icon {
     display: flex;
@@ -20602,7 +20955,7 @@ font-size: 1.23em !important;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 670px !important;
+  height: 640px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -21277,7 +21630,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -21427,7 +21780,7 @@ height: 55px;
   }
   .font-type-service-page-header-gutter{
     font-weight: 600 !important;
-    font-size: 5em !important;
+    font-size: 5.1em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   margin-top: .3em;
@@ -21579,7 +21932,7 @@ height: 55px;
   }
   .about-page-header{
     font-weight: 600 !important;
-    font-size: 1.74em !important ;
+    font-size: 1.67em !important ;
     margin-bottom: .4em ;
     margin-top: 1em !important;
     color: #63B4B8;
@@ -22242,7 +22595,7 @@ margin-left: 15px ;
 }
 .about-section-content {
   padding-top: 0em !important; 
-  margin-top: 8em !important; 
+  margin-top: 7.83em !important; 
   }
 .body-text-dark{
   font-size: 1.2em !important;
@@ -22474,7 +22827,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -22985,8 +23338,8 @@ font-size: 1.32em !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.5rem; /* Size of the outer circle */
-    height: 3.5rem; /* Size of the outer circle */
+    width: 3.65rem; /* Size of the outer circle */
+    height: 3.65rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -23043,11 +23396,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -25px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -25px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -23450,7 +23803,7 @@ margin-left: 15px ;
 }
 .about-section-content {
   padding-top: 0em !important; 
-  margin-top: 8em !important; 
+  margin-top: 7.8em !important; 
   }
 .body-text-dark{
   font-size: 1.2em !important;
@@ -23681,7 +24034,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -24204,7 +24557,7 @@ margin-top: 0em;
   }
   .text-container{
     width: 90%;
-    margin-top: 35px !important;
+    margin-top: 38px !important;
     }.carousel-caption {
       top: 4% !important;
       left: 6% !important;
@@ -24215,7 +24568,7 @@ margin-top: 0em;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 740px !important;
+  height: 730px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -24251,11 +24604,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -25px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -25px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -24887,7 +25240,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -25037,7 +25390,7 @@ height: 55px;
   }
   .font-type-service-page-header-gutter{
     font-weight: 600 !important;
-    font-size: 5.65em !important;
+    font-size: 5.45em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   margin-top: .25em;
@@ -25414,7 +25767,7 @@ margin-top: 0em;
   }
   .text-container{
     width: 90%;
-    margin-top: 35px !important;
+    margin-top: 37px !important;
     }.carousel-caption {
       top: 4% !important;
       left: 6% !important;
@@ -25461,11 +25814,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -25px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -25px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -26016,7 +26369,7 @@ margin-left: 5px;
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 2.5em !important;
+    margin-top: 2.35em !important;
   }
   .project-carousel{
     margin-top: 3.7em !important;
@@ -26044,7 +26397,7 @@ margin-left: 5px;
     margin-bottom: 2em;
   }
   section#testimonial {
-    margin-top: -6.5em !important;
+    margin-top: -7em !important;
     margin-bottom: -4.9em !important;
   }
   .testimonial-content .user-info {
@@ -26100,7 +26453,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -26250,7 +26603,7 @@ height: 55px;
   }
   .font-type-service-page-header-gutter{
     font-weight: 600 !important;
-    font-size: 5.65em !important;
+    font-size: 5.45em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   margin-top: .25em;
@@ -26675,11 +27028,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -26px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -26px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -27318,7 +27671,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -27468,7 +27821,7 @@ height: 55px;
   }
   .font-type-service-page-header-gutter{
     font-weight: 600 !important;
-    font-size: 5.35em !important;
+    font-size: 5.47em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   margin-top: .2em;
@@ -27565,13 +27918,13 @@ height: 55px;
   .service-page-sub-head2{
     margin-top: .8em !important;
     margin-bottom: .14em !important;
-    font-size: 1.9em;
+    font-size: 2.2em !important;
   }
 
   .service-page-sub-head{
     margin-top: .8em !important;
     margin-bottom: .19em !important;
-    font-size: 1.9em;
+    font-size: 1.7em;
   }
   .display-desktop-only{
     display: none !important;
@@ -27834,8 +28187,8 @@ margin-top: 0em;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4rem; /* Size of the outer circle */
-    height: 4rem; /* Size of the outer circle */
+    width: 4.2rem; /* Size of the outer circle */
+    height: 4.2rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -6em;
@@ -27892,11 +28245,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -27px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -27px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -28476,7 +28829,7 @@ margin-left: 5px;
     margin-bottom: 2em;
   }
   section#testimonial {
-    margin-top: -7.85em !important;
+    margin-top: -7.5em !important;
     margin-bottom: 1.9em !important;
   }
   .swiper-pagination {
@@ -28536,7 +28889,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 5em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -28783,13 +29136,13 @@ height: 55px;
   .service-page-sub-head2{
     margin-top: .8em !important;
     margin-bottom: .14em !important;
-    font-size: 1.9em;
+    font-size: 2.3em !important;
   }
 
   .service-page-sub-head{
     margin-top: .8em !important;
     margin-bottom: .19em !important;
-    font-size: 1.9em;
+    font-size: 1.7em;
   }
   .display-desktop-only{
     display: none !important;
@@ -29072,8 +29425,8 @@ margin-top: 0em;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4rem; /* Size of the outer circle */
-    height: 4rem; /* Size of the outer circle */
+    width: 4.3rem; /* Size of the outer circle */
+    height: 4.3rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -6em;
@@ -29130,11 +29483,11 @@ margin-top: 0em;
   object-fit: cover;
 }
 .carousel-control-prev {
-  left: -20px !important; /* Adjust this value to bring it closer to the center */
+  left: -27px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Adjust this value to bring it closer to the center */
+  right: -27px !important; /* Adjust this value to bring it closer to the center */
 }
 
 .carousel-control-prev-icon,
@@ -29686,7 +30039,7 @@ margin-left: 5px;
   }
   .projects{
     margin-bottom: 2em;
-    margin-top: 2em !important;
+    margin-top: 1.7em !important;
   }
   .project-carousel{
     margin-top: 3.7em !important;
@@ -29714,7 +30067,7 @@ margin-left: 5px;
     margin-bottom: 2em;
   }
   section#testimonial {
-    margin-top: -7.85em !important;
+    margin-top: -7.9em !important;
     margin-bottom: 1.9em !important;
   }
   .swiper-pagination {
@@ -29774,7 +30127,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
-    margin-bottom: 8em !important;
+    margin-bottom: 6em !important;
   }
   .appointment p{
     font-size: 1.32em;
@@ -30021,13 +30374,13 @@ height: 55px;
   .service-page-sub-head2{
     margin-top: .8em !important;
     margin-bottom: .14em !important;
-    font-size: 1.9em;
+    font-size: 2.3em !important;
   }
 
   .service-page-sub-head{
     margin-top: .8em !important;
     margin-bottom: .19em !important;
-    font-size: 1.9em;
+    font-size: 1.7em;
   }
   .display-desktop-only{
     display: none !important;
@@ -30269,4 +30622,43 @@ margin-top: 0em;
   padding-left: 1.5em ;
 }  .display-desktop-only{
   display: none ;
+}
+.ipad-display-visible{
+  display: none ;
+}
+.phone-rotate{
+  transform: rotate(110deg);
+}
+.icon-colour-footer{
+  color: #999999;
+}
+.colour-white{
+  color: #fff !important;
+}
+.colour-white:hover{
+  color: #fff !important;
+}
+
+.custom-spinner-container {
+  width: 5.6rem; /* Adjust size as needed */
+  height: 5.6rem; /* Adjust size as needed */
+  border: 5px solid rgba(0, 0, 0, 0.1); /* Light border */
+  border-top: 5px solid #96E0E3; /* Blue border */
+  border-radius: 50%; /* Make it a circle */
+  animation: spin 1s linear infinite; /* Spin animation */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Custom CSS for the logo inside the spinner */
+.spinner-logo {
+  width: 3.8rem; /* Adjust size as needed */
+  height: auto;
+  position: absolute; /* Position it in the center */
 }
