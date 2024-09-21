@@ -3235,11 +3235,11 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 690px !important;
+  height: 680px !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 165px !important;
+  margin-top: 167px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -3278,7 +3278,7 @@ display: none !important;
   display: inline-block !important;
 white-space: nowrap;
   font-size: .9em !important;
-  margin-left: -3.955em !important;
+  margin-left: -3.73em !important;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
@@ -3289,7 +3289,7 @@ margin-top: -1.3em !important;
   transform: rotate(110deg);
   position: absolute;
   font-size: .7em !important;
-margin-left: -27% !important;
+margin-left: -26% !important;
 margin-top: -7% !important;
 
 } 
@@ -3331,7 +3331,7 @@ margin-top: -7% !important;
   height: 3.15rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
-  margin-top: 34em;
+  margin-top: 34.5em;
   background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
   border: 2px solid white; /* White stroke */
   position: absolute;
@@ -3626,11 +3626,12 @@ margin-left: -28px !important;
   position: relative;
   border-radius: 0px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  min-width: 100%;
+  min-width: 90% !important;
   overflow: hidden;
-  margin-right: 0px !important  ; /* Increase the horizontal gap */
+  margin-right: auto !important  ; /* Increase the horizontal gap */
+  margin-left: auto !important  ; /* Increase the horizontal gap */
   min-height: 455px;
-  max-width: 450px !important; /* Adjust width as needed */
+  max-width: 334px !important; /* Adjust width as needed */
   margin-bottom: -5px !important;
   padding-bottom: 90%; /* 5:4 ratio */
   transition: transform 0.3s;
@@ -3805,7 +3806,7 @@ margin-left: -28px !important;
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1120px;
   margin-bottom: 4.5em !important;
@@ -3859,7 +3860,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -3987,7 +3988,7 @@ margin-top: -30px !important;
 }
 .about-section .contact{
   margin-top: 1.4em !important;
-  margin-left: -1em;
+  margin-left: -  1.3em;
 }
 .px-amount{
   padding-left: 1.4rem !important;
@@ -4500,7 +4501,10 @@ white-space: nowrap !important;
 } 
 
 @media (min-width: 370px) and (max-width: 380px) {
-  
+  section#testimonial {
+    margin-top: -5.3em !important;
+    margin-bottom: 5em;
+  }
   .project-heading{
     display: block !important;
     margin: 3.35em auto 0em auto !important;
@@ -4631,7 +4635,7 @@ display: none !important;
   display: inline-block !important;
 white-space: nowrap;
   font-size: .90em !important;
-  margin-left: -3.2em !important;
+  margin-left: -3.1em !important;
   letter-spacing: 0px !important;
 font-weight: 600 !important;
 font-family: "Montserrat", sans-serif;
@@ -4642,7 +4646,7 @@ margin-top: -1.25em !important;
   transform: rotate(110deg);
   position: absolute;
   font-size: .73em !important;
-margin-left: -22.5% !important;
+margin-left: -21.5% !important;
 margin-top: -6.9% !important;
 
 } 
@@ -4684,7 +4688,7 @@ margin-top: -6.9% !important;
   height: 3.25rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
-  margin-top: 33em;
+  margin-top: 32.5em;
   background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
   border: 2px solid white; /* White stroke */
   position: absolute;
@@ -4818,7 +4822,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -2em !important;
+  margin-top: -3.25em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -4970,11 +4974,12 @@ margin-left: -39px !important;
   position: relative;
   border-radius: 0px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  min-width: 100%;
+  min-width: 90% !important;
   overflow: hidden;
-  margin-right: 0px !important  ; /* Increase the horizontal gap */
+  margin-right: auto !important  ; /* Increase the horizontal gap */
+  margin-left: auto !important  ; /* Increase the horizontal gap */
   min-height: 455px;
-  max-width: 450px !important; /* Adjust width as needed */
+  max-width: 340px !important; /* Adjust width as needed */
   margin-bottom: -5px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
@@ -5149,7 +5154,7 @@ margin-left: -39px !important;
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1100px;
   margin-bottom: 5em !important;
@@ -5206,7 +5211,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -5336,7 +5341,7 @@ margin-top: -35px !important;
 }
 .about-section .contact{
   margin-top: 1.5em !important;
-  margin-left: -.6em;
+  margin-left: -.7em;
 }
 .px-amount{
   padding-left: 1.4rem !important;
@@ -5941,7 +5946,7 @@ text-transform: uppercase !important;
 padding-left: 1em !important;
 }
 .carousel-item{
-  height: 670px !important;
+  height: 665px !important;
 }
 .text-container{
   width: 90%;
@@ -6037,7 +6042,7 @@ margin-top: -6.6% !important;
   height: 3.25rem; /* Size of the outer circle */
   border-radius: 50%;
   padding: .81em !important;
-  margin-top: 34em;
+  margin-top: 33.75em;
   background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
   border: 2px solid white; /* White stroke */
   position: absolute;
@@ -6171,7 +6176,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -2.3em !important;
+  margin-top: -3.25em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -6323,12 +6328,13 @@ margin-left: -39px !important;
   position: relative;
   border-radius: 0px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  min-width: 100%;
+  min-width: 90% !important;
   overflow: hidden;
-  margin-right: 0px !important  ; /* Increase the horizontal gap */
+  margin-right: auto !important  ; /* Increase the horizontal gap */
+  margin-left: auto !important  ; /* Increase the horizontal gap */
   min-height: 455px;
-  max-width: 450px !important; /* Adjust width as needed */
-  margin-bottom: -5px !important;
+  max-width: 345px !important; /* Adjust width as needed */
+  margin-bottom: -3px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
 }
@@ -6502,9 +6508,9 @@ margin-left: -39px !important;
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
-  height: 1100px;
+  height: 1050px;
   margin-bottom: 3em !important;
   margin-top: -3.2em !important;
 }
@@ -6516,7 +6522,7 @@ margin-left: -39px !important;
 }
  .font-type-contact{
     font-weight: 700;
-    font-size: 2.7em;
+    font-size: 2.6em;
     font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
 
@@ -6559,7 +6565,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -6689,7 +6695,7 @@ margin-top: -35px !important;
 }
 .about-section .contact{
   margin-top: 1.5em !important;
-  margin-left: -1.2em;
+  margin-left: -1em;
 }
 .px-amount{
   padding-left: 1.4rem !important;
@@ -7549,7 +7555,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -2.5em !important;
+  margin-top: -2.8em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -7612,8 +7618,8 @@ margin-left: -48px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -4.7em !important;
-  margin-bottom: 5em;
+  margin-top: -4.89em !important;
+  margin-bottom: 4.5em;
 }
 .reviews-section-header::after {
   content: "";
@@ -7706,11 +7712,12 @@ section#testimonial {
   position: relative;
   border-radius: 0px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  min-width: 100%;
+  min-width: 90% !important; 
   overflow: hidden;
-  margin-right: 0px !important  ; /* Increase the horizontal gap */
+  margin-right: auto !important  ; /* Increase the horizontal gap */
+  margin-left: auto !important  ; /* Increase the horizontal gap */
   min-height: 455px;
-  max-width: 450px !important; /* Adjust width as needed */
+  max-width: 352px !important; /* Adjust width as needed */
   margin-bottom: -5px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
@@ -7885,9 +7892,9 @@ section#testimonial {
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
-  height: 1150px;
+  height: 1080px;
   margin-bottom: 5em !important;
   margin-top: -2.2em !important;
 }
@@ -7897,7 +7904,7 @@ section#testimonial {
  .font-type-contact{
     font-weight: 700;
     margin-top: .11em !important;
-    font-size: 2.9em !important;
+    font-size: 2.68em !important;
     font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
 .custom-text-area{
@@ -7942,7 +7949,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -8681,7 +8688,7 @@ padding-left: 1em !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 176px !important;
+  margin-top: 180px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -9059,7 +9066,7 @@ section#testimonial {
   margin-left: auto !important  ; /* Increase the horizontal gap */
   min-height: 460px;
   max-width: 375px !important; /* Adjust width as needed */
-  margin-bottom: -8px !important;
+  margin-bottom: -3px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
 }
@@ -10014,7 +10021,7 @@ padding-left: 1em !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 182px !important;
+  margin-top: 186px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -10225,6 +10232,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
+  margin-top: -2.5em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -10388,9 +10396,9 @@ section#testimonial {
   margin-left: auto !important;
   overflow: hidden;
   margin-right: auto !important  ; /* Increase the horizontal gap */
-  min-height: 455px;
+  min-height: 460px;
   max-width: 300px !important; /* Adjust width as needed */
-  margin-bottom: -10px !important;
+  margin-bottom: -1px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
 }
@@ -10565,9 +10573,9 @@ section#testimonial {
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
-  height: 1150px;
+  height: 1100px;
   margin-bottom: 6em !important;
   margin-top: -2.2em !important;
 }
@@ -10622,7 +10630,7 @@ font-size: 1.5em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -11933,7 +11941,7 @@ section#testimonial {
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1080px;
   margin-bottom: 6em !important;
@@ -11990,7 +11998,7 @@ font-size: 1.5em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -13370,7 +13378,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
@@ -14791,7 +14799,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
