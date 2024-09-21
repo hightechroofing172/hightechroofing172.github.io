@@ -3145,6 +3145,16 @@ margin-top: -.2em;
   text-transform: uppercase !important;
 }
 @media (min-width: 100px) and (max-width: 374px) {
+  .blog .sidebar .sidebar-title {
+    font-size: 24px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
@@ -4250,7 +4260,7 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   font-size: 1.5em !important;
   margin-bottom: .23em !important;
-  margin-top: 1em;
+  margin-top: .85em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -4259,8 +4269,8 @@ text-transform: uppercase !important;
 .contact-page-header{
   font-weight: 600 !important;
   font-size: 1.4em !important;
-  margin-bottom: .53em !important;
-  margin-top: 1em;
+  margin-bottom: .43em !important;
+  margin-top: .7em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -4498,9 +4508,58 @@ white-space: nowrap !important;
         font-style: normal !important;
         margin-bottom: 13px;
       }
+      .sidebar{
+        margin-top: -3.5em;
+      }
+      .font-type-i-semi{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.05em ;
+      }  
 } 
 
 @media (min-width: 370px) and (max-width: 380px) {
+  .blog .sidebar .sidebar-title {
+    font-size: 24px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
+  .font-type-i-semi{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.05em ;
+  }  
+
+  .sidebar{
+    margin-top: -3.5em;
+  }
   section#testimonial {
     margin-top: -5.3em !important;
     margin-bottom: 5em;
@@ -5605,8 +5664,8 @@ text-transform: uppercase !important;
 .about-page-header{
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  margin-bottom: .453em !important;
-  margin-top: 1em;
+  margin-bottom: .353em !important;
+  margin-top: .8em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -5614,9 +5673,9 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.4em !important;
-  margin-bottom: .53em !important;
-  margin-top: 1em;
+  font-size: 1.45em !important;
+  margin-bottom: .4em !important;
+  margin-top: .75em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -5856,6 +5915,12 @@ white-space: nowrap !important;
       }
 } 
 @media (min-width: 380px) and (max-width: 385px) {
+  .font-type-i-semi{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.05em ;
+  }  
   .twoword-br{
     display: none !important;
   }
@@ -6959,8 +7024,8 @@ text-transform: uppercase !important;
 .about-page-header{
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  margin-bottom: .453em !important;
-  margin-top: 1em;
+  margin-bottom: .353em !important;
+  margin-top: .7em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -6969,8 +7034,8 @@ text-transform: uppercase !important;
 .contact-page-header{
   font-weight: 600 !important;
   font-size: 1.4em !important;
-  margin-bottom: .53em !important;
-  margin-top: 1em;
+  margin-bottom: .4em !important;
+  margin-top: .7em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -7210,7 +7275,12 @@ white-space: nowrap !important;
       }
 } 
 @media (min-width: 386px) and (max-width: 410px) {
-  
+  .font-type-i-semi{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.05em ;
+  }  
   .blog .posts-list .post-title {
     font-size: 24px;
     font-weight: 700;
@@ -8338,8 +8408,8 @@ text-transform: uppercase !important;
 .about-page-header{
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  margin-bottom: .3em !important;
-  margin-top: .8em;
+  margin-bottom: .35em !important;
+  margin-top: .6em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -8347,9 +8417,9 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.44em !important;
+  font-size: 1.4em !important;
   margin-bottom: .33em !important;
-  margin-top: .8em;
+  margin-top: .6em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -8584,8 +8654,61 @@ white-space: nowrap !important;
   .service-page-contact-us{
     margin-bottom: .2em !important;
   }
+  .sidebar{
+    margin-top: -3.5em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 24px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .dropdown-menu.show {
+    display: block; /* Ensure it’s set to block when active */
+    visibility: visible;
+    background-color: #151A42 !important; /* Purple background color */
+
+  }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item{
+      color: #fff;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      /* You can change this color to the desired color */
+    }
+    /* Define the background color when a dropdown item is clicked */
+    .dropdown-item:active {
+      background-color: #fff; /* New background color when clicked (green in this example) */
+      /* You can change this color to the desired color */
+    }
 } 
 @media (min-width: 410px) and (max-width: 425px) {
+  .sidebar{
+    margin-top: -3.5em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 26px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .font-type-i-semi{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1em !important ;
+  }  
+ 
   .project-heading{
     display: block !important;
     margin: 3.5em auto 0em auto !important;
@@ -8963,8 +9086,8 @@ margin-left: -80px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -4.5em !important;
-  margin-bottom: 5em;
+  margin-top: -4.85em !important;
+  margin-bottom: 3.85em;
 }
 .reviews-section-header::after {
   content: "";
@@ -9243,7 +9366,7 @@ section#testimonial {
 .appointment {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
-  height: 1150px;
+  height: 1050px;
   margin-bottom: 6em !important;
   margin-top: -2.2em !important;
 }
@@ -9253,7 +9376,7 @@ section#testimonial {
  .font-type-contact{
     font-weight: 700;
     margin-top: .31em;
-    font-size: 3em;
+    font-size: 2.85em;
     font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
 .custom-text-area{
@@ -9688,7 +9811,7 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   font-size: 1.5em !important;
   margin-bottom: .453em !important;
-  margin-top: 1em;
+  margin-top: .7em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -9696,9 +9819,9 @@ text-transform: uppercase !important;
 }
 .contact-page-header{
   font-weight: 600 !important;
-  font-size: 1.6em !important;
+  font-size: 1.5em !important;
   margin-bottom: .33em !important;
-  margin-top: .8em;
+  margin-top: .67em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -9946,6 +10069,27 @@ white-space: nowrap !important;
       }
 } 
 @media (min-width: 425px) and (max-width: 450px) {
+
+  .sidebar{
+    margin-top: -3.5em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 26px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 24px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .font-type-i-semi{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em !important ;
+  }  
+ 
   .logo-container{
     background-color: #63B4B8 ;
   }
@@ -10232,7 +10376,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -2.5em !important;
+  margin-top: -2.85em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -10295,8 +10439,8 @@ margin-left: -90px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -4.5em !important;
-  margin-bottom: 5em;
+  margin-top: -4.65em !important;
+  margin-bottom: 3.5em;
 }
 .reviews-section-header::after {
   content: "";
@@ -10478,7 +10622,7 @@ section#testimonial {
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1.75em !important;
+    margin-top: 1.35em !important;
   }
   .project-item {
     position: relative;
@@ -10575,7 +10719,7 @@ section#testimonial {
 .appointment {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
-  height: 1100px;
+  height: 1088px;
   margin-bottom: 6em !important;
   margin-top: -2.2em !important;
 }
@@ -11046,7 +11190,7 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   font-size: 1.5em !important;
   margin-bottom: .453em !important;
-  margin-top: 1em;
+  margin-top: .8em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -11056,7 +11200,7 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   font-size: 1.5em !important;
   margin-bottom: .33em !important;
-  margin-top: .85em;
+  margin-top: .75em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
@@ -11316,6 +11460,26 @@ font-size: 2em;
   
 } 
 @media (min-width: 450px) and (max-width: 690px) {
+  .sidebar{
+    margin-top: -3.5em;
+  }
+  .blog .sidebar .sidebar-title {
+    font-size: 26px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 24px !important;
+    padding: 0;
+    margin: 0;
+  }
+  .font-type-i-semi{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em !important ;
+  }  
+ 
   .logo-container{
     background-color: #63B4B8 ;
   }
@@ -11602,7 +11766,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -1.5em !important;
+  margin-top: -2.7em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -11664,7 +11828,7 @@ margin-left: -90px !important;
 }
 section#testimonial {
   margin-top: -4.5em !important;
-  margin-bottom: 5em;
+  margin-bottom: 4.5em;
 }
 .reviews-section-header::after {
   content: "";
@@ -11766,7 +11930,7 @@ section#testimonial {
   margin-right: auto !important  ; /* Increase the horizontal gap */
   min-height: 475px;
   max-width: 300px !important; /* Adjust width as needed */
-  margin-bottom: -10px !important;
+  margin-bottom: 5px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
 }
@@ -11846,7 +12010,7 @@ section#testimonial {
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 2em !important;
+    margin-top: 1em  !important;
   }
   .project-item {
     position: relative;
@@ -11943,7 +12107,7 @@ section#testimonial {
 .appointment {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
-  height: 1080px;
+  height: 1060px;
   margin-bottom: 6em !important;
   margin-top: -2.2em !important;
 }
@@ -12414,7 +12578,7 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   font-size: 1.5em !important;
   margin-bottom: .453em !important;
-  margin-top: 1em;
+  margin-top: .7em;
   color: #63B4B8;
   line-height: 1.2 !important;
   font-family: "Poppins", system-ui !important;
