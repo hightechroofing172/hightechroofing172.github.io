@@ -3468,6 +3468,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
+  margin-top: -3em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -4817,7 +4818,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -.0em !important;
+  margin-top: -2em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -6170,7 +6171,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -.0em !important;
+  margin-top: -2.3em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -7548,7 +7549,7 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
-  margin-top: -.15em !important;
+  margin-top: -2.5em !important;
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -8891,6 +8892,8 @@ margin-top: -11px !important;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px !important;
+  margin-top: -2.8em !important;
+
 }
 .about-section-container{
   padding: 0em .5em ;
@@ -8953,7 +8956,7 @@ margin-left: -80px !important;
   display: inline-block;
 }
 section#testimonial {
-  margin-top: -3.75em !important;
+  margin-top: -4.5em !important;
   margin-bottom: 5em;
 }
 .reviews-section-header::after {
@@ -9050,11 +9053,12 @@ section#testimonial {
   position: relative;
   border-radius: 0px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  min-width: 100%;
+  min-width: 90% !important;
   overflow: hidden;
-  margin-right: 0px !important  ; /* Increase the horizontal gap */
-  min-height: 455px;
-  max-width: 450px !important; /* Adjust width as needed */
+  margin-right: auto !important  ; /* Increase the horizontal gap */
+  margin-left: auto !important  ; /* Increase the horizontal gap */
+  min-height: 460px;
+  max-width: 375px !important; /* Adjust width as needed */
   margin-bottom: -8px !important;
   padding-bottom: 100%; /* 5:4 ratio */
   transition: transform 0.3s;
@@ -9230,7 +9234,7 @@ section#testimonial {
   margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1150px;
   margin-bottom: 6em !important;
@@ -9242,7 +9246,7 @@ section#testimonial {
  .font-type-contact{
     font-weight: 700;
     margin-top: .31em;
-    font-size: 3.2em;
+    font-size: 3em;
     font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
 .custom-text-area{
@@ -9287,7 +9291,7 @@ font-size: 1.4em !important;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
+  background: linear-gradient(to right, rgba(0, 0, 0, .82), rgba(0, 0, 0, 0.4)); /* Adjust the gradient as needed */
   z-index: 1; /* Ensure the overlay is above the image but below the content */
 }
 .navbar-nav{
